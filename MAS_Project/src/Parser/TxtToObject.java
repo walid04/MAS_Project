@@ -12,7 +12,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TxtToObject {
-    public void variableFileParser (String path) {
+    public List fileParser (String directoryName) {
+        List fileInfo = new ArrayList();
+        fileInfo.add(variableFileParser("FullRLFAP/CELAR/" + directoryName + "/var.txt"));
+        fileInfo.add(domainFileParser("FullRLFAP/CELAR/" + directoryName + "/dom.txt"));
+        fileInfo.add(constraintFileParser("FullRLFAP/CELAR/" + directoryName + "/ctr.txt"));
+        return fileInfo;
+    }
+
+    public List<Variable> variableFileParser (String path) {
         try {
             BufferedReader br = new BufferedReader(new FileReader(path));
             StringBuilder sb = new StringBuilder();
@@ -44,20 +52,22 @@ public class TxtToObject {
             }
 
             /* Print the variables */
-            for (int i = 0; i < variables.size(); i++) {
-                System.out.println("Variable number: " + variables.get(i).getNumber());
-                System.out.println("Variable domain: " + variables.get(i).getDomain());
-                System.out.println();
-            }
+//            for (int i = 0; i < variables.size(); i++) {
+//                System.out.println("Variable number: " + variables.get(i).getNumber());
+//                System.out.println("Variable domain: " + variables.get(i).getDomain());
+//                System.out.println();
+//            }
+            return variables;
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return null;
     }
 
-    public void domainFileParser (String path) {
+    public List<Domain> domainFileParser (String path) {
         try {
             BufferedReader br = new BufferedReader(new FileReader(path));
             StringBuilder sb = new StringBuilder();
@@ -107,24 +117,26 @@ public class TxtToObject {
             }
 
             /* Print the domains */
-            for (int i = 0; i < domains.size(); i++) {
-                System.out.println("Domain number: " + domains.get(i).getNumber());
-                System.out.println("Domain cardinality: " + domains.get(i).getCardinality());
-                System.out.print("Domain Values: ");
-                for (int j = 0; j < domains.get(i).getValues().size(); j++) {
-                    System.out.print(domains.get(i).getValues().get(j) + " ");
-                }
-                System.out.println();
-            }
+//            for (int i = 0; i < domains.size(); i++) {
+//                System.out.println("Domain number: " + domains.get(i).getNumber());
+//                System.out.println("Domain cardinality: " + domains.get(i).getCardinality());
+//                System.out.print("Domain Values: ");
+//                for (int j = 0; j < domains.get(i).getValues().size(); j++) {
+//                    System.out.print(domains.get(i).getValues().get(j) + " ");
+//                }
+//                System.out.println();
+//            }
+            return domains;
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return null;
     }
 
-    public void constraintFileParser (String path) {
+    public List<Constraint> constraintFileParser (String path) {
         try {
             BufferedReader br = new BufferedReader(new FileReader(path));
             StringBuilder sb = new StringBuilder();
@@ -174,19 +186,21 @@ public class TxtToObject {
             }
 
             /* Print the constraints */
-            for (int i = 0; i < constraints.size(); i++) {
-                System.out.println("Constaint first variable: " + constraints.get(i).getFirstVariable());
-                System.out.println("Constaint second variable: " + constraints.get(i).getSecondVariable());
-                System.out.println("Constaint type: " + constraints.get(i).getType());
-                System.out.println("Constaint operator: " + constraints.get(i).getOperator());
-                System.out.println("Constaint deviation: " + constraints.get(i).getDeviation());
-                System.out.println();
-            }
+//            for (int i = 0; i < constraints.size(); i++) {
+//                System.out.println("Constaint first variable: " + constraints.get(i).getFirstVariable());
+//                System.out.println("Constaint second variable: " + constraints.get(i).getSecondVariable());
+//                System.out.println("Constaint type: " + constraints.get(i).getType());
+//                System.out.println("Constaint operator: " + constraints.get(i).getOperator());
+//                System.out.println("Constaint deviation: " + constraints.get(i).getDeviation());
+//                System.out.println();
+//            }
+            return constraints;
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return null;
     }
 }
