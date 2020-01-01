@@ -10,12 +10,14 @@ import org.w3c.dom.Element;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
+import java.io.StringWriter;
 import java.util.List;
 
 public class XMLGenerator {
@@ -135,6 +137,7 @@ public class XMLGenerator {
             /* Predicate name */
             Attr eqPredicateName = document.createAttribute("name");
             eqPredicateName.setValue("eq");
+            eqPredicate.setAttributeNode(eqPredicateName);
             /* Predicate Parameters (Child element) */
             Element eqParameters = document.createElement("parameters");
             eqParameters.appendChild(document.createTextNode("int V1 int V2 int K12"));
@@ -142,7 +145,7 @@ public class XMLGenerator {
             Element eqExpression = document.createElement("expression");
             /* Expression Functional (Child element) */
             Element eqFunctional = document.createElement("functional");
-            eqParameters.appendChild(document.createTextNode("eq(abs(sub(V1,V2)),K12)"));
+            eqFunctional.appendChild(document.createTextNode("eq(abs(sub(V1,V2)),K12)"));
             eqExpression.appendChild(eqFunctional);
 
             eqPredicate.appendChild(eqParameters);
@@ -154,6 +157,7 @@ public class XMLGenerator {
             /* Predicate name */
             Attr gtPredicateName = document.createAttribute("name");
             gtPredicateName.setValue("gt");
+            gtPredicate.setAttributeNode(gtPredicateName);
             /* Predicate Parameters (Child element) */
             Element gtParameters = document.createElement("parameters");
             gtParameters.appendChild(document.createTextNode("int V1 int V2 int K12"));
@@ -212,7 +216,11 @@ public class XMLGenerator {
             /* Create the XML file */
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
+            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+            transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+            StreamResult result = new StreamResult(new StringWriter());
             DOMSource domSource = new DOMSource(document);
+            transformer.transform(domSource, result);
             StreamResult streamResult = new StreamResult(new File(path));
 
             /* Print result */
