@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <instance>
-  <presentation format="XCSP 2.1_FRODO" maxConstraintArity="2" maximize="false" name="Problem name"/>
+  <presentation format="XCSP 2.1_FRODO" maxConstraintArity="2" maximize="false" name="scen02"/>
   <agents nbAgents="200">
     <agent name="agent0"/>
     <agent name="agent1"/>

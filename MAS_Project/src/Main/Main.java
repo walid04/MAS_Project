@@ -12,13 +12,13 @@ public class Main {
     public static void main(String[] args) {
         /* Extract files info */
         TxtToObject txtToObject = new TxtToObject();
-        List fileInfo = txtToObject.fileParser("scen02");
+        List fileInfo = txtToObject.fileParser("scen11");
         List<Variable> variables = (List<Variable>) fileInfo.get(0);
         List<Domain> domains = (List<Domain>) fileInfo.get(1);
         List<Constraint> constraints = (List<Constraint>) fileInfo.get(2);
 
         /* Generate XML file */
         XMLGenerator xmlGenerator = new XMLGenerator();
-        xmlGenerator.generateXCSP("Problem name", System.getProperty("user.dir") + "/output.xml", variables, domains, constraints);
+        xmlGenerator.generateXCSP("scen11",  "outputFiles/scen11.xcsp", variables, domains, constraints);
     }
 }
