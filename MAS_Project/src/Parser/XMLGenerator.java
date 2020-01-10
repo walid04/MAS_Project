@@ -63,7 +63,8 @@ public class XMLGenerator {
                 Element agent = document.createElement("agent");
                 /* Agent name */
                 Attr agentName = document.createAttribute("name");
-                agentName.setValue("agent" + i);
+                int nb = i + 1;
+                agentName.setValue("agent" + nb);
                 agent.setAttributeNode(agentName);
                 agents.appendChild(agent);
             }
@@ -79,14 +80,14 @@ public class XMLGenerator {
 
             for (int i = 0; i < domains.size(); i++) {
                 Element domain = document.createElement("domain");
-                /* Domain name */
-                Attr domainName = document.createAttribute("name");
-                domainName.setValue(String.valueOf(domains.get(i).getNumber()));
-                domain.setAttributeNode(domainName);
                 /* Domain number of values */
                 Attr nbValues = document.createAttribute("nbValues");
                 nbValues.setValue(String.valueOf(domains.get(i).getCardinality()));
                 domain.setAttributeNode(nbValues);
+                /* Domain name */
+                Attr domainName = document.createAttribute("name");
+                domainName.setValue(String.valueOf("domain" + domains.get(i).getNumber()));
+                domain.setAttributeNode(domainName);
                 /* Domain values */
                 for (int j = 0; j < domains.get(i).getValues().size() - 1; j++) {
                     domain.appendChild(document.createTextNode(String.valueOf(domains.get(i).getValues().get(j)) + " "));
@@ -109,15 +110,16 @@ public class XMLGenerator {
                 Element variable = document.createElement("variable");
                 /* Variable name */
                 Attr variableName = document.createAttribute("name");
-                variableName.setValue(String.valueOf(variables.get(i).getNumber()));
+                variableName.setValue(String.valueOf("variable" + variables.get(i).getNumber()));
                 variable.setAttributeNode(variableName);
                 /* Variable domain */
                 Attr variableDomain = document.createAttribute("domain");
-                variableDomain.setValue(String.valueOf(variables.get(i).getDomain()));
+                variableDomain.setValue(String.valueOf("domain" + variables.get(i).getDomain()));
                 variable.setAttributeNode(variableDomain);
                 /* Variable agent */
                 Attr variableAgent = document.createAttribute("agent");
-                variableAgent.setValue("agent" + i);
+                int nb = i + 1;
+                variableAgent.setValue("agent" + nb);
                 variable.setAttributeNode(variableAgent);
 
                 variablesElement.appendChild(variable);
@@ -140,12 +142,12 @@ public class XMLGenerator {
             eqPredicate.setAttributeNode(eqPredicateName);
             /* Predicate Parameters (Child element) */
             Element eqParameters = document.createElement("parameters");
-            eqParameters.appendChild(document.createTextNode("int V1 int V2 int K12"));
+            eqParameters.appendChild(document.createTextNode("int variable1 int variable2 int k12"));
             /* Predicate Expression (Child element) */
             Element eqExpression = document.createElement("expression");
             /* Expression Functional (Child element) */
             Element eqFunctional = document.createElement("functional");
-            eqFunctional.appendChild(document.createTextNode("eq(abs(sub(V1,V2)),K12)"));
+            eqFunctional.appendChild(document.createTextNode("eq(abs(sub(variable1,variable2)),k12)"));
             eqExpression.appendChild(eqFunctional);
 
             eqPredicate.appendChild(eqParameters);
@@ -160,12 +162,12 @@ public class XMLGenerator {
             gtPredicate.setAttributeNode(gtPredicateName);
             /* Predicate Parameters (Child element) */
             Element gtParameters = document.createElement("parameters");
-            gtParameters.appendChild(document.createTextNode("int V1 int V2 int K12"));
+            gtParameters.appendChild(document.createTextNode("int variable1 int variable2 int k12"));
             /* Predicate Expression (Child element) */
             Element gtExpression = document.createElement("expression");
             /* Expression Functional (Child element) */
             Element gtFunctional = document.createElement("functional");
-            gtFunctional.appendChild(document.createTextNode("gt(abs(sub(V1,V2)),K12)"));
+            gtFunctional.appendChild(document.createTextNode("gt(abs(sub(variable1,variable2)),k12)"));
             gtExpression.appendChild(gtFunctional);
 
             gtPredicate.appendChild(gtParameters);
@@ -182,23 +184,6 @@ public class XMLGenerator {
 
             for (int i = 0; i < constraints.size(); i++) {
                 Element constraint = document.createElement("constraint");
-                /* Constraint name */
-                Attr constraintName = document.createAttribute("name");
-                if (constraints.get(i).getOperator().equals("=")) {
-                    constraintName.setValue(constraints.get(i).getFirstVariable() + "_eq_" + constraints.get(i).getSecondVariable() + "_with_K12=" + constraints.get(i).getDeviation());
-                }
-                else {
-                    constraintName.setValue(constraints.get(i).getFirstVariable() + "_gt_" + constraints.get(i).getSecondVariable() + "_with_K12=" + constraints.get(i).getDeviation());
-                }
-                constraint.setAttributeNode(constraintName);
-                /* Constraint arity */
-                Attr constraintArity = document.createAttribute("arity");
-                constraintArity.setValue("2");
-                constraint.setAttributeNode(constraintArity);
-                /* Constraint scope */
-                Attr constraintScope = document.createAttribute("scope");
-                constraintScope.setValue(constraints.get(i).getFirstVariable() + " " + constraints.get(i).getSecondVariable());
-                constraint.setAttributeNode(constraintScope);
                 /* Constraint reference */
                 Attr constraintReference = document.createAttribute("reference");
                 if (constraints.get(i).getOperator().equals("=")) {
@@ -208,6 +193,27 @@ public class XMLGenerator {
                     constraintReference.setValue("gt");
                 }
                 constraint.setAttributeNode(constraintReference);
+                /* Parameters of constraint */
+                Element parameters = document.createElement("parameters");
+                parameters.appendChild(document.createTextNode("variable" + constraints.get(i).getFirstVariable() + " variable" + constraints.get(i).getSecondVariable() + " " + constraints.get(i).getDeviation()));
+                constraint.appendChild(parameters);
+                /* Constraint scope */
+                Attr constraintScope = document.createAttribute("scope");
+                constraintScope.setValue("variable" + constraints.get(i).getFirstVariable() + " variable" + constraints.get(i).getSecondVariable());
+                constraint.setAttributeNode(constraintScope);
+                /* Constraint arity */
+                Attr constraintArity = document.createAttribute("arity");
+                constraintArity.setValue("2");
+                constraint.setAttributeNode(constraintArity);
+                /* Constraint name */
+                Attr constraintName = document.createAttribute("name");
+                if (constraints.get(i).getOperator().equals("=")) {
+                    constraintName.setValue(constraints.get(i).getFirstVariable() + "_eq_" + constraints.get(i).getSecondVariable() + "_with_k12=" + constraints.get(i).getDeviation());
+                }
+                else {
+                    constraintName.setValue(constraints.get(i).getFirstVariable() + "_gt_" + constraints.get(i).getSecondVariable() + "_with_k12=" + constraints.get(i).getDeviation());
+                }
+                constraint.setAttributeNode(constraintName);
 
                 constraintsElement.appendChild(constraint);
             }
