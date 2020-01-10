@@ -4,7 +4,7 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. Use the option -license to display the license.
 
 Parsing the input problem file: /home/walid/Documents/MAS_Project/MAS_Project/outputFiles/scen02.xcsp
-Parsing the input agent configuration file: /home/walid/Documents/frodo2.17.1/frodo2/agents/MGM/MGMagentJaCoP.xml
+Parsing the input agent configuration file: /home/walid/Documents/frodo2.17.1/frodo2/agents/DSA/DSAagentJaCoP.xml
 Setting up the agents...
 Constraint graph:
 graph {
@@ -2049,2215 +2049,1615 @@ graph {
 }
 
 Starting the algorithm...
-var `variable475' = 282
-var `variable476' = 44
-var `variable481' = 736
-var `variable482' = 498
-var `variable668' = 394
-var `variable129' = 44
-var `variable206' = 142
-var `variable128' = 526
-var `variable127' = 764
-var `variable667' = 156
-var `variable616' = 338
-var `variable615' = 100
-var `variable130' = 282
-var `variable205' = 380
-var `variable879' = 736
-var `variable652' = 792
-var `variable54' = 324
-var `variable661' = 366
-var `variable662' = 128
-var `variable435' = 128
-var `variable436' = 366
-var `variable261' = 736
-var `variable262' = 498
-var `variable589' = 142
-var `variable617' = 58
-var `variable590' = 380
-var `variable618' = 296
-var `variable304' = 100
-var `variable303' = 338
-var `variable306' = 470
-var `variable305' = 708
-var `variable796' = 324
-var `variable281' = 778
-var `variable722' = 750
-var `variable724' = 456
-var `variable284' = 764
-var `variable283' = 128
-var `variable146' = 100
-var `variable282' = 540
-var `variable344' = 366
-var `variable144' = 554
-var `variable342' = 86
-var `variable343' = 128
-var `variable341' = 554
-var `variable595' = 498
-var `variable596' = 736
-var `variable797' = 456
-var `variable53' = 86
-var `variable79' = 114
-var `variable651' = 554
-var `variable81' = 44
-var `variable880' = 498
-var `variable80' = 352
-var `variable82' = 282
-var `variable289' = 310
-var `variable604' = 366
-var `variable603' = 128
-var `variable646' = 30
-var `variable267' = 100
-var `variable265' = 778
-var `variable607' = 282
-var `variable721' = 470
-var `variable723' = 44
-var `variable145' = 792
-var `variable143' = 58
-var `variable326' = 694
-var `variable325' = 456
-var `variable764' = 470
-var `variable763' = 708
-var `variable328' = 156
-var `variable327' = 394
-var `variable263' = 324
-var `variable264' = 86
-var `variable236' = 680
-var `variable235' = 442
-var `variable519' = 442
-var `variable520' = 680
-var `variable579' = 442
-var `variable626' = 380
-var `variable625' = 142
-var `variable580' = 442
-var `variable518' = 30
-var `variable238' = 498
-var `variable237' = 736
-var `variable517' = 268
-var `variable606' = 526
-var `variable605' = 764
-var `variable645' = 268
-var `variable559' = 666
-var `variable602' = 680
-var `variable560' = 428
-var `variable744' = 736
-var `variable743' = 484
-var `variable664' = 428
-var `variable663' = 666
-var `variable588' = 394
-var `variable268' = 338
-var `variable266' = 540
-var `variable585' = 268
-var `variable578' = 282
-var `variable622' = 694
-var `variable577' = 44
-var `variable621' = 708
-var `variable801' = 456
-var `variable349' = 666
-var `variable350' = 428
-var `variable234' = 708
-var `variable233' = 72
-var `variable562' = 338
-var `variable561' = 100
-var `variable601' = 442
-var `variable566' = 296
-var `variable329' = 750
-var `variable635' = 750
-var `variable351' = 428
-var `variable592' = 484
-var `variable352' = 666
-var `variable330' = 512
-var `variable713' = 254
-var `variable277' = 16
-var `variable269' = 44
-var `variable270' = 86
-var `variable291' = 694
-var `variable292' = 456
-var `variable719' = 414
-var `variable608' = 526
-var `variable718' = 114
-var `variable717' = 72
-var `variable556' = 128
-var `variable787' = 58
-var `variable555' = 736
-var `variable720' = 652
-var `variable274' = 792
-var `variable714' = 296
-var `variable273' = 456
-var `variable272' = 792
-var `variable278' = 470
-var `variable276' = 296
-var `variable583' = 526
-var `variable275' = 764
-var `variable584' = 540
-var `variable271' = 778
-var `variable86' = 778
-var `variable84' = 380
-var `variable85' = 540
-var `variable83' = 142
-var `variable766' = 16
-var `variable748' = 722
-var `variable788' = 296
-var `variable789' = 498
-var `variable629' = 512
-var `variable798' = 694
-var `variable598' = 470
-var `variable613' = 694
-var `variable630' = 750
-var `variable13' = 86
-var `variable14' = 778
-var `variable600' = 428
-var `variable765' = 254
-var `variable666' = 128
-var `variable324' = 414
-var `variable665' = 470
-var `variable786' = 792
-var `variable323' = 652
-var `variable565' = 58
-var `variable785' = 554
-var `variable747' = 512
-var `variable802' = 694
-var `variable587' = 156
-var `variable746' = 750
-var `variable745' = 512
-var `variable800' = 58
-var `variable322' = 30
-var `variable768' = 366
-var `variable321' = 268
-var `variable586' = 30
-var `variable290' = 72
-var `variable634' = 366
-var `variable557' = 722
-var `variable799' = 296
-var `variable599' = 666
-var `variable632' = 366
-var `variable633' = 128
-var `variable631' = 128
-var `variable636' = 512
-var `variable614' = 456
-var `variable558' = 526
-var `variable593' = 282
-var `variable790' = 736
-var `variable15' = 352
-var `variable791' = 666
-var `variable591' = 128
-var `variable16' = 694
+var `variable475' = 44
+var `variable476' = 282
+var `variable481' = 680
+var `variable482' = 442
+var `variable668' = 30
+var `variable129' = 268
+var `variable128' = 666
+var `variable206' = 484
+var `variable261' = 442
+var `variable436' = 268
+var `variable435' = 30
+var `variable616' = 44
+var `variable667' = 268
+var `variable205' = 722
+var `variable130' = 30
+var `variable127' = 428
+var `variable615' = 282
+var `variable879' = 540
+var `variable652' = 128
+var `variable54' = 484
+var `variable661' = 736
+var `variable662' = 498
+var `variable590' = 554
+var `variable589' = 792
+var `variable617' = 680
+var `variable618' = 442
+var `variable262' = 680
+var `variable306' = 282
+var `variable304' = 352
+var `variable305' = 44
+var `variable303' = 114
+var `variable880' = 778
+var `variable651' = 366
+var `variable53' = 722
+var `variable81' = 680
+var `variable79' = 156
+var `variable595' = 338
+var `variable596' = 100
+var `variable763' = 764
+var `variable764' = 526
+var `variable325' = 380
+var `variable328' = 380
+var `variable264' = 324
+var `variable327' = 142
+var `variable326' = 680
+var `variable263' = 128
+var `variable238' = 484
+var `variable517' = 498
+var `variable518' = 778
+var `variable237' = 750
+var `variable646' = 282
+var `variable645' = 44
+var `variable603' = 268
+var `variable604' = 324
+var `variable267' = 156
+var `variable265' = 58
+var `variable625' = 100
+var `variable626' = 338
+var `variable580' = 142
+var `variable606' = 100
+var `variable605' = 338
+var `variable235' = 380
+var `variable236' = 142
+var `variable584' = 142
+var `variable583' = 428
+var `variable282' = 72
+var `variable344' = 736
+var `variable343' = 778
+var `variable342' = 44
+var `variable284' = 498
+var `variable281' = 708
+var `variable283' = 554
+var `variable341' = 282
+var `variable717' = 156
+var `variable275' = 72
+var `variable724' = 44
+var `variable273' = 296
+var `variable722' = 156
+var `variable146' = 268
+var `variable276' = 694
+var `variable720' = 114
+var `variable277' = 736
+var `variable144' = 254
+var `variable278' = 58
+var `variable274' = 44
+var `variable719' = 652
+var `variable718' = 394
+var `variable714' = 100
+var `variable713' = 338
+var `variable608' = 366
+var `variable607' = 128
+var `variable556' = 44
+var `variable555' = 268
+var `variable723' = 694
+var `variable143' = 156
+var `variable721' = 394
+var `variable145' = 484
+var `variable271' = 142
+var `variable272' = 380
+var `variable270' = 128
+var `variable269' = 86
+var `variable796' = 100
+var `variable797' = 498
+var `variable579' = 380
+var `variable80' = 394
+var `variable787' = 100
+var `variable82' = 442
+var `variable289' = 708
+var `variable291' = 114
+var `variable292' = 352
+var `variable520' = 512
+var `variable519' = 540
+var `variable602' = 142
+var `variable635' = 456
+var `variable601' = 380
+var `variable560' = 456
+var `variable559' = 694
+var `variable663' = 484
+var `variable664' = 722
+var `variable743' = 750
+var `variable744' = 44
+var `variable585' = 128
+var `variable588' = 366
+var `variable266' = 44
+var `variable268' = 394
+var `variable566' = 442
+var `variable352' = 526
+var `variable329' = 16
+var `variable351' = 764
+var `variable330' = 254
+var `variable578' = 792
+var `variable350' = 680
+var `variable562' = 666
+var `variable233' = 694
+var `variable561' = 428
+var `variable349' = 484
+var `variable622' = 736
+var `variable234' = 456
+var `variable577' = 554
+var `variable621' = 498
+var `variable801' = 44
+var `variable592' = 324
+var `variable766' = 128
+var `variable83' = 442
+var `variable85' = 652
+var `variable748' = 512
+var `variable84' = 778
+var `variable86' = 414
+var `variable798' = 736
+var `variable789' = 680
+var `variable630' = 428
+var `variable629' = 666
+var `variable788' = 338
+var `variable598' = 736
+var `variable613' = 86
+var `variable791' = 352
+var `variable795' = 338
+var `variable632' = 282
+var `variable794' = 736
+var `variable799' = 694
+var `variable793' = 498
+var `variable792' = 114
+var `variable290' = 470
+var `variable746' = 442
+var `variable800' = 456
+var `variable636' = 470
+var `variable631' = 44
+var `variable790' = 442
+var `variable634' = 338
+var `variable745' = 128
+var `variable633' = 100
+var `variable587' = 526
+var `variable765' = 128
+var `variable14' = 694
+var `variable586' = 792
+var `variable747' = 750
 var `variable597' = 708
-var `variable795' = 86
-var `variable794' = 498
-var `variable793' = 736
-var `variable594' = 44
-var `variable792' = 428
-var `variable767' = 652
+var `variable593' = 666
+var `variable786' = 484
+var `variable16' = 324
+var `variable15' = 666
+var `variable324' = 324
+var `variable802' = 338
+var `variable565' = 680
+var `variable322' = 380
+var `variable599' = 380
+var `variable13' = 652
+var `variable600' = 442
+var `variable594' = 428
+var `variable323' = 708
+var `variable785' = 72
+var `variable321' = 652
+var `variable591' = 72
+var `variable614' = 352
+var `variable558' = 310
+var `variable557' = 296
+var `variable665' = 114
+var `variable666' = 156
+var `variable768' = 100
+var `variable767' = 512
 Total cost of reported solution: infinity
-Algorithm finished in 67 383 ms (simulated time)
+Algorithm finished in 72 542 ms (simulated time)
 Number of messages sent (by type): 
-	[ALL, MGM, improve]:	8 800
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	3 400
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 200
-	[ALL, MGM, improve]:	1 200
-	[ALL, MGM, improve]:	2 600
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	1 200
-	[ALL, MGM, improve]:	4 000
-	[ALL, MGM, improve]:	2 800
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	2 800
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	4 400
-	[ALL, MGM, improve]:	4 200
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	1 200
-	[ALL, MGM, improve]:	4 600
-	[ALL, MGM, improve]:	3 400
-	[ALL, MGM, improve]:	3 200
-	[ALL, MGM, improve]:	7 600
-	[ALL, MGM, improve]:	2 600
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	1 200
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	1 600
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	1 600
-	[ALL, MGM, improve]:	2 600
-	[ALL, MGM, improve]:	2 800
-	[ALL, MGM, improve]:	3 200
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	4 400
-	[ALL, MGM, improve]:	2 200
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	4 400
-	[ALL, MGM, improve]:	2 400
-	[ALL, MGM, improve]:	3 400
-	[ALL, MGM, improve]:	2 600
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	4 000
-	[ALL, MGM, improve]:	2 800
-	[ALL, MGM, improve]:	1 200
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	1 200
-	[ALL, MGM, improve]:	2 400
-	[ALL, MGM, improve]:	2 600
-	[ALL, MGM, improve]:	1 600
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	4 400
-	[ALL, MGM, improve]:	4 400
-	[ALL, MGM, improve]:	4 200
-	[ALL, MGM, improve]:	5 200
-	[ALL, MGM, improve]:	5 600
-	[ALL, MGM, improve]:	6 600
-	[ALL, MGM, improve]:	4 600
-	[ALL, MGM, improve]:	4 200
-	[ALL, MGM, improve]:	6 600
-	[ALL, MGM, improve]:	5 600
-	[ALL, MGM, improve]:	5 200
-	[ALL, MGM, improve]:	4 600
-	[ALL, MGM, improve]:	6 000
-	[ALL, MGM, improve]:	5 600
-	[ALL, MGM, improve]:	5 200
-	[ALL, MGM, improve]:	2 600
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	4 200
-	[ALL, MGM, improve]:	5 600
-	[ALL, MGM, improve]:	4 400
-	[ALL, MGM, improve]:	6 400
-	[ALL, MGM, improve]:	6 400
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	3 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	2 200
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	3 000
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	2 000
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	800
-	[ALL, MGM, improve]:	2 600
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	2 400
-	[ALL, MGM, improve]:	2 600
-	[ALL, MGM, improve]:	2 600
-	[ALL, MGM, improve]:	1 600
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	600
-	[ALL, MGM, improve]:	600
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	1 200
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	600
-	[ALL, MGM, improve]:	600
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	5 200
-	[ALL, MGM, improve]:	5 200
-	[ALL, MGM, improve]:	5 200
-	[ALL, MGM, improve]:	3 400
-	[ALL, MGM, improve]:	5 600
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 600
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	800
-	[ALL, MGM, improve]:	800
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	400
-	[ALL, MGM, improve]:	400
-	[ALL, MGM, improve]:	600
-	[ALL, MGM, improve]:	800
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	3 400
-	[ALL, MGM, improve]:	3 400
-	[ALL, MGM, improve]:	3 400
-	[ALL, MGM, improve]:	5 000
-	[ALL, MGM, improve]:	5 000
-	[ALL, MGM, improve]:	3 400
-	[ALL, MGM, improve]:	5 000
-	[ALL, MGM, improve]:	3 200
-	[ALL, MGM, improve]:	3 800
-	[ALL, MGM, improve]:	3 600
-	[ALL, MGM, improve]:	5 400
-	[ALL, MGM, improve]:	3 200
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	1 600
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	1 600
-	[ALL, MGM, improve]:	2 400
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	800
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	800
-	[ALL, MGM, improve]:	600
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	600
-	[ALL, MGM, improve]:	600
-	[ALL, MGM, improve]:	200
-	[ALL, MGM, improve]:	200
-	[ALL, MGM, improve]:	200
-	[ALL, MGM, improve]:	1 200
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	1 600
-	[ALL, MGM, improve]:	1 800
-	[ALL, MGM, improve]:	1 600
-	[ALL, MGM, improve]:	1 200
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	1 400
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	200
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, improve]:	1 000
-	[ALL, MGM, ok]:	8 800
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	3 400
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 200
-	[ALL, MGM, ok]:	1 200
-	[ALL, MGM, ok]:	2 600
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	1 200
-	[ALL, MGM, ok]:	4 000
-	[ALL, MGM, ok]:	2 800
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	2 800
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	4 400
-	[ALL, MGM, ok]:	4 200
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	1 200
-	[ALL, MGM, ok]:	4 600
-	[ALL, MGM, ok]:	3 400
-	[ALL, MGM, ok]:	3 200
-	[ALL, MGM, ok]:	7 600
-	[ALL, MGM, ok]:	2 600
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	1 200
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	1 600
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	1 600
-	[ALL, MGM, ok]:	2 600
-	[ALL, MGM, ok]:	2 800
-	[ALL, MGM, ok]:	3 200
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	4 400
-	[ALL, MGM, ok]:	2 200
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	4 400
-	[ALL, MGM, ok]:	2 400
-	[ALL, MGM, ok]:	3 400
-	[ALL, MGM, ok]:	2 600
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	4 000
-	[ALL, MGM, ok]:	2 800
-	[ALL, MGM, ok]:	1 200
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	1 200
-	[ALL, MGM, ok]:	2 400
-	[ALL, MGM, ok]:	2 600
-	[ALL, MGM, ok]:	1 600
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	4 400
-	[ALL, MGM, ok]:	4 400
-	[ALL, MGM, ok]:	4 200
-	[ALL, MGM, ok]:	5 200
-	[ALL, MGM, ok]:	5 600
-	[ALL, MGM, ok]:	6 600
-	[ALL, MGM, ok]:	4 600
-	[ALL, MGM, ok]:	4 200
-	[ALL, MGM, ok]:	6 600
-	[ALL, MGM, ok]:	5 600
-	[ALL, MGM, ok]:	5 200
-	[ALL, MGM, ok]:	4 600
-	[ALL, MGM, ok]:	6 000
-	[ALL, MGM, ok]:	5 600
-	[ALL, MGM, ok]:	5 200
-	[ALL, MGM, ok]:	2 600
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	4 200
-	[ALL, MGM, ok]:	5 600
-	[ALL, MGM, ok]:	4 400
-	[ALL, MGM, ok]:	6 400
-	[ALL, MGM, ok]:	6 400
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	3 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	2 200
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	3 000
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	2 000
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	800
-	[ALL, MGM, ok]:	2 600
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	2 400
-	[ALL, MGM, ok]:	2 600
-	[ALL, MGM, ok]:	2 600
-	[ALL, MGM, ok]:	1 600
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	600
-	[ALL, MGM, ok]:	600
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	1 200
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	600
-	[ALL, MGM, ok]:	600
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	5 200
-	[ALL, MGM, ok]:	5 200
-	[ALL, MGM, ok]:	5 200
-	[ALL, MGM, ok]:	3 400
-	[ALL, MGM, ok]:	5 600
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 600
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	800
-	[ALL, MGM, ok]:	800
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	400
-	[ALL, MGM, ok]:	400
-	[ALL, MGM, ok]:	600
-	[ALL, MGM, ok]:	800
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	3 400
-	[ALL, MGM, ok]:	3 400
-	[ALL, MGM, ok]:	3 400
-	[ALL, MGM, ok]:	5 000
-	[ALL, MGM, ok]:	5 000
-	[ALL, MGM, ok]:	3 400
-	[ALL, MGM, ok]:	5 000
-	[ALL, MGM, ok]:	3 200
-	[ALL, MGM, ok]:	3 800
-	[ALL, MGM, ok]:	3 600
-	[ALL, MGM, ok]:	5 400
-	[ALL, MGM, ok]:	3 200
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	1 600
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	1 600
-	[ALL, MGM, ok]:	2 400
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	800
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	800
-	[ALL, MGM, ok]:	600
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	600
-	[ALL, MGM, ok]:	600
-	[ALL, MGM, ok]:	200
-	[ALL, MGM, ok]:	200
-	[ALL, MGM, ok]:	200
-	[ALL, MGM, ok]:	1 200
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	1 600
-	[ALL, MGM, ok]:	1 800
-	[ALL, MGM, ok]:	1 600
-	[ALL, MGM, ok]:	1 200
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	1 400
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	200
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	1 000
-	[ALL, MGM, ok]:	1 000
-	- Total:	988 000
+	[ALL, DSA, VALUE]:	8 756
+	[ALL, DSA, VALUE]:	7 562
+	[ALL, DSA, VALUE]:	2 786
+	[ALL, DSA, VALUE]:	4 378
+	[ALL, DSA, VALUE]:	4 378
+	[ALL, DSA, VALUE]:	4 577
+	[ALL, DSA, VALUE]:	4 378
+	[ALL, DSA, VALUE]:	4 179
+	[ALL, DSA, VALUE]:	3 980
+	[ALL, DSA, VALUE]:	3 184
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 786
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	3 184
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	2 786
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	3 980
+	[ALL, DSA, VALUE]:	2 786
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	4 378
+	[ALL, DSA, VALUE]:	4 179
+	[ALL, DSA, VALUE]:	4 179
+	[ALL, DSA, VALUE]:	4 378
+	[ALL, DSA, VALUE]:	5 174
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	5 174
+	[ALL, DSA, VALUE]:	5 174
+	[ALL, DSA, VALUE]:	4 577
+	[ALL, DSA, VALUE]:	4 577
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	6 368
+	[ALL, DSA, VALUE]:	6 567
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	6 567
+	[ALL, DSA, VALUE]:	4 975
+	[ALL, DSA, VALUE]:	6 368
+	[ALL, DSA, VALUE]:	5 970
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	4 975
+	[ALL, DSA, VALUE]:	5 373
+	[ALL, DSA, VALUE]:	5 174
+	[ALL, DSA, VALUE]:	4 975
+	[ALL, DSA, VALUE]:	5 174
+	[ALL, DSA, VALUE]:	5 174
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	3 184
+	[ALL, DSA, VALUE]:	3 582
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	3 184
+	[ALL, DSA, VALUE]:	4 179
+	[ALL, DSA, VALUE]:	4 378
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	398
+	[ALL, DSA, VALUE]:	398
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	- Total:	491 530
 Number of messages sent (by agent): 
-	agent1:	5 200
-	agent10:	1 600
-	agent100:	4 000
-	agent101:	2 400
-	agent102:	2 000
-	agent103:	8 400
-	agent104:	8 800
-	agent105:	2 800
-	agent106:	4 000
-	agent107:	3 200
-	agent108:	2 800
-	agent109:	2 000
-	agent11:	3 600
-	agent110:	1 600
-	agent111:	8 000
-	agent112:	7 600
-	agent113:	5 600
-	agent114:	6 800
-	agent115:	2 800
-	agent116:	2 800
-	agent117:	6 000
-	agent118:	5 600
-	agent119:	6 800
-	agent12:	3 600
-	agent120:	6 800
-	agent121:	4 000
-	agent122:	3 600
-	agent123:	2 800
-	agent124:	3 200
-	agent125:	1 200
-	agent126:	1 200
-	agent127:	6 800
-	agent128:	6 000
-	agent129:	8 000
-	agent13:	3 600
-	agent130:	8 400
-	agent131:	3 200
-	agent132:	3 600
-	agent133:	2 800
-	agent134:	4 800
-	agent135:	6 000
-	agent136:	6 000
-	agent137:	2 000
-	agent138:	2 000
-	agent139:	4 000
-	agent14:	4 000
-	agent140:	4 000
-	agent141:	3 600
-	agent142:	2 400
-	agent143:	4 000
-	agent144:	4 000
-	agent145:	4 000
-	agent146:	4 000
-	agent147:	3 200
-	agent148:	2 800
-	agent149:	800
-	agent15:	3 200
-	agent150:	400
-	agent151:	1 200
-	agent152:	1 200
-	agent153:	1 600
-	agent154:	2 000
-	agent155:	8 800
-	agent156:	8 800
-	agent157:	2 400
-	agent158:	400
-	agent159:	12 800
-	agent16:	2 800
-	agent160:	13 200
-	agent161:	10 400
-	agent162:	11 200
-	agent163:	11 200
-	agent164:	12 000
-	agent165:	11 200
-	agent166:	10 800
-	agent167:	10 400
-	agent168:	10 000
-	agent169:	5 200
-	agent17:	2 000
-	agent170:	4 800
-	agent171:	4 000
-	agent172:	4 000
-	agent173:	6 000
-	agent174:	5 200
-	agent175:	3 600
-	agent176:	3 600
-	agent177:	4 000
-	agent178:	3 200
-	agent179:	17 600
-	agent18:	2 800
-	agent180:	15 200
-	agent181:	5 200
-	agent182:	4 400
-	agent183:	5 200
-	agent184:	4 800
-	agent185:	2 400
-	agent186:	3 600
-	agent187:	2 400
-	agent188:	2 800
-	agent189:	2 800
-	agent19:	10 400
-	agent190:	2 400
-	agent191:	2 400
-	agent192:	2 000
-	agent193:	2 000
-	agent194:	2 400
-	agent195:	2 800
-	agent196:	3 200
-	agent197:	6 000
-	agent198:	6 400
-	agent199:	400
-	agent2:	4 800
-	agent20:	10 000
-	agent200:	800
-	agent21:	10 400
-	agent22:	10 000
-	agent23:	2 400
-	agent24:	2 800
-	agent25:	6 000
-	agent26:	6 000
-	agent27:	2 000
-	agent28:	2 000
-	agent29:	3 600
-	agent3:	5 600
-	agent30:	3 600
-	agent31:	1 200
-	agent32:	1 600
-	agent33:	3 600
-	agent34:	3 600
-	agent35:	3 600
-	agent36:	4 000
-	agent37:	3 600
-	agent38:	4 000
-	agent39:	8 800
-	agent4:	5 200
-	agent40:	8 400
-	agent41:	8 800
-	agent42:	8 400
-	agent43:	10 400
-	agent44:	11 200
-	agent45:	10 400
-	agent46:	11 200
-	agent47:	12 800
-	agent48:	13 200
-	agent49:	6 400
-	agent5:	1 200
-	agent50:	6 400
-	agent51:	7 200
-	agent52:	7 600
-	agent53:	2 000
-	agent54:	2 400
-	agent55:	3 600
-	agent56:	3 600
-	agent57:	3 200
-	agent58:	2 800
-	agent59:	3 200
-	agent6:	400
-	agent60:	2 800
-	agent61:	6 400
-	agent62:	5 200
-	agent63:	5 600
-	agent64:	6 000
-	agent65:	3 600
-	agent66:	3 600
-	agent67:	3 600
-	agent68:	3 600
-	agent69:	2 800
-	agent7:	1 600
-	agent70:	4 000
-	agent71:	6 800
-	agent72:	6 800
-	agent73:	6 800
-	agent74:	6 800
-	agent75:	6 000
-	agent76:	6 000
-	agent77:	3 600
-	agent78:	3 600
-	agent79:	2 800
-	agent8:	2 800
-	agent80:	2 800
-	agent81:	2 000
-	agent82:	2 000
-	agent83:	2 000
-	agent84:	2 000
-	agent85:	3 600
-	agent86:	3 600
-	agent87:	1 200
-	agent88:	1 200
-	agent89:	9 200
-	agent9:	1 600
-	agent90:	9 200
-	agent91:	9 200
-	agent92:	8 800
-	agent93:	5 200
-	agent94:	5 200
-	agent95:	6 000
-	agent96:	6 000
-	agent97:	6 000
-	agent98:	6 000
-	agent99:	4 400
+	agent1:	2 587
+	agent10:	796
+	agent100:	1 990
+	agent101:	1 194
+	agent102:	995
+	agent103:	4 179
+	agent104:	4 378
+	agent105:	1 393
+	agent106:	1 990
+	agent107:	1 592
+	agent108:	1 393
+	agent109:	995
+	agent11:	1 791
+	agent110:	796
+	agent111:	3 980
+	agent112:	3 781
+	agent113:	2 786
+	agent114:	3 383
+	agent115:	1 393
+	agent116:	1 393
+	agent117:	2 985
+	agent118:	2 786
+	agent119:	3 383
+	agent12:	1 791
+	agent120:	3 383
+	agent121:	1 990
+	agent122:	1 791
+	agent123:	1 393
+	agent124:	1 592
+	agent125:	597
+	agent126:	597
+	agent127:	3 383
+	agent128:	2 985
+	agent129:	3 980
+	agent13:	1 791
+	agent130:	4 179
+	agent131:	1 592
+	agent132:	1 791
+	agent133:	1 393
+	agent134:	2 388
+	agent135:	2 985
+	agent136:	2 985
+	agent137:	995
+	agent138:	995
+	agent139:	1 990
+	agent14:	1 990
+	agent140:	1 990
+	agent141:	1 791
+	agent142:	1 194
+	agent143:	1 990
+	agent144:	1 990
+	agent145:	1 990
+	agent146:	1 990
+	agent147:	1 592
+	agent148:	1 393
+	agent149:	398
+	agent15:	1 592
+	agent150:	199
+	agent151:	597
+	agent152:	597
+	agent153:	796
+	agent154:	995
+	agent155:	4 378
+	agent156:	4 378
+	agent157:	1 194
+	agent158:	199
+	agent159:	6 368
+	agent16:	1 393
+	agent160:	6 567
+	agent161:	5 174
+	agent162:	5 572
+	agent163:	5 572
+	agent164:	5 970
+	agent165:	5 572
+	agent166:	5 373
+	agent167:	5 174
+	agent168:	4 975
+	agent169:	2 587
+	agent17:	995
+	agent170:	2 388
+	agent171:	1 990
+	agent172:	1 990
+	agent173:	2 985
+	agent174:	2 587
+	agent175:	1 791
+	agent176:	1 791
+	agent177:	1 990
+	agent178:	1 592
+	agent179:	8 756
+	agent18:	1 393
+	agent180:	7 562
+	agent181:	2 587
+	agent182:	2 189
+	agent183:	2 587
+	agent184:	2 388
+	agent185:	1 194
+	agent186:	1 791
+	agent187:	1 194
+	agent188:	1 393
+	agent189:	1 393
+	agent19:	5 174
+	agent190:	1 194
+	agent191:	1 194
+	agent192:	995
+	agent193:	995
+	agent194:	1 194
+	agent195:	1 393
+	agent196:	1 592
+	agent197:	2 985
+	agent198:	3 184
+	agent199:	199
+	agent2:	2 388
+	agent20:	4 975
+	agent200:	398
+	agent21:	5 174
+	agent22:	4 975
+	agent23:	1 194
+	agent24:	1 393
+	agent25:	2 985
+	agent26:	2 985
+	agent27:	995
+	agent28:	995
+	agent29:	1 791
+	agent3:	2 786
+	agent30:	1 791
+	agent31:	597
+	agent32:	796
+	agent33:	1 791
+	agent34:	1 791
+	agent35:	1 791
+	agent36:	1 990
+	agent37:	1 791
+	agent38:	1 990
+	agent39:	4 378
+	agent4:	2 587
+	agent40:	4 179
+	agent41:	4 378
+	agent42:	4 179
+	agent43:	5 174
+	agent44:	5 572
+	agent45:	5 174
+	agent46:	5 572
+	agent47:	6 368
+	agent48:	6 567
+	agent49:	3 184
+	agent5:	597
+	agent50:	3 184
+	agent51:	3 582
+	agent52:	3 781
+	agent53:	995
+	agent54:	1 194
+	agent55:	1 791
+	agent56:	1 791
+	agent57:	1 592
+	agent58:	1 393
+	agent59:	1 592
+	agent6:	199
+	agent60:	1 393
+	agent61:	3 184
+	agent62:	2 587
+	agent63:	2 786
+	agent64:	2 985
+	agent65:	1 791
+	agent66:	1 791
+	agent67:	1 791
+	agent68:	1 791
+	agent69:	1 393
+	agent7:	796
+	agent70:	1 990
+	agent71:	3 383
+	agent72:	3 383
+	agent73:	3 383
+	agent74:	3 383
+	agent75:	2 985
+	agent76:	2 985
+	agent77:	1 791
+	agent78:	1 791
+	agent79:	1 393
+	agent8:	1 393
+	agent80:	1 393
+	agent81:	995
+	agent82:	995
+	agent83:	995
+	agent84:	995
+	agent85:	1 791
+	agent86:	1 791
+	agent87:	597
+	agent88:	597
+	agent89:	4 577
+	agent9:	796
+	agent90:	4 577
+	agent91:	4 577
+	agent92:	4 378
+	agent93:	2 587
+	agent94:	2 587
+	agent95:	2 985
+	agent96:	2 985
+	agent97:	2 985
+	agent98:	2 985
+	agent99:	2 189
 Number of messages received (by agent): 
-	agent1:	5 200
-	agent10:	1 600
-	agent100:	4 000
-	agent101:	2 400
-	agent102:	2 000
-	agent103:	8 400
-	agent104:	8 800
-	agent105:	2 800
-	agent106:	4 000
-	agent107:	3 200
-	agent108:	2 800
-	agent109:	2 000
-	agent11:	3 600
-	agent110:	1 600
-	agent111:	8 000
-	agent112:	7 600
-	agent113:	5 600
-	agent114:	6 800
-	agent115:	2 800
-	agent116:	2 800
-	agent117:	6 000
-	agent118:	5 600
-	agent119:	6 800
-	agent12:	3 600
-	agent120:	6 800
-	agent121:	4 000
-	agent122:	3 600
-	agent123:	2 800
-	agent124:	3 200
-	agent125:	1 200
-	agent126:	1 200
-	agent127:	6 800
-	agent128:	6 000
-	agent129:	8 000
-	agent13:	3 600
-	agent130:	8 400
-	agent131:	3 200
-	agent132:	3 600
-	agent133:	2 800
-	agent134:	4 800
-	agent135:	6 000
-	agent136:	6 000
-	agent137:	2 000
-	agent138:	2 000
-	agent139:	4 000
-	agent14:	4 000
-	agent140:	4 000
-	agent141:	3 600
-	agent142:	2 400
-	agent143:	4 000
-	agent144:	4 000
-	agent145:	4 000
-	agent146:	4 000
-	agent147:	3 200
-	agent148:	2 800
-	agent149:	800
-	agent15:	3 200
-	agent150:	400
-	agent151:	1 200
-	agent152:	1 200
-	agent153:	1 600
-	agent154:	2 000
-	agent155:	8 800
-	agent156:	8 800
-	agent157:	2 400
-	agent158:	400
-	agent159:	12 800
-	agent16:	2 800
-	agent160:	13 200
-	agent161:	10 400
-	agent162:	11 200
-	agent163:	11 200
-	agent164:	12 000
-	agent165:	11 200
-	agent166:	10 800
-	agent167:	10 400
-	agent168:	10 000
-	agent169:	5 200
-	agent17:	2 000
-	agent170:	4 800
-	agent171:	4 000
-	agent172:	4 000
-	agent173:	6 000
-	agent174:	5 200
-	agent175:	3 600
-	agent176:	3 600
-	agent177:	4 000
-	agent178:	3 200
-	agent179:	17 600
-	agent18:	2 800
-	agent180:	15 200
-	agent181:	5 200
-	agent182:	4 400
-	agent183:	5 200
-	agent184:	4 800
-	agent185:	2 400
-	agent186:	3 600
-	agent187:	2 400
-	agent188:	2 800
-	agent189:	2 800
-	agent19:	10 400
-	agent190:	2 400
-	agent191:	2 400
-	agent192:	2 000
-	agent193:	2 000
-	agent194:	2 400
-	agent195:	2 800
-	agent196:	3 200
-	agent197:	6 000
-	agent198:	6 400
-	agent199:	400
-	agent2:	4 800
-	agent20:	10 000
-	agent200:	800
-	agent21:	10 400
-	agent22:	10 000
-	agent23:	2 400
-	agent24:	2 800
-	agent25:	6 000
-	agent26:	6 000
-	agent27:	2 000
-	agent28:	2 000
-	agent29:	3 600
-	agent3:	5 600
-	agent30:	3 600
-	agent31:	1 200
-	agent32:	1 600
-	agent33:	3 600
-	agent34:	3 600
-	agent35:	3 600
-	agent36:	4 000
-	agent37:	3 600
-	agent38:	4 000
-	agent39:	8 800
-	agent4:	5 200
-	agent40:	8 400
-	agent41:	8 800
-	agent42:	8 400
-	agent43:	10 400
-	agent44:	11 200
-	agent45:	10 400
-	agent46:	11 200
-	agent47:	12 800
-	agent48:	13 200
-	agent49:	6 400
-	agent5:	1 200
-	agent50:	6 400
-	agent51:	7 200
-	agent52:	7 600
-	agent53:	2 000
-	agent54:	2 400
-	agent55:	3 600
-	agent56:	3 600
-	agent57:	3 200
-	agent58:	2 800
-	agent59:	3 200
-	agent6:	400
-	agent60:	2 800
-	agent61:	6 400
-	agent62:	5 200
-	agent63:	5 600
-	agent64:	6 000
-	agent65:	3 600
-	agent66:	3 600
-	agent67:	3 600
-	agent68:	3 600
-	agent69:	2 800
-	agent7:	1 600
-	agent70:	4 000
-	agent71:	6 800
-	agent72:	6 800
-	agent73:	6 800
-	agent74:	6 800
-	agent75:	6 000
-	agent76:	6 000
-	agent77:	3 600
-	agent78:	3 600
-	agent79:	2 800
-	agent8:	2 800
-	agent80:	2 800
-	agent81:	2 000
-	agent82:	2 000
-	agent83:	2 000
-	agent84:	2 000
-	agent85:	3 600
-	agent86:	3 600
-	agent87:	1 200
-	agent88:	1 200
-	agent89:	9 200
-	agent9:	1 600
-	agent90:	9 200
-	agent91:	9 200
-	agent92:	8 800
-	agent93:	5 200
-	agent94:	5 200
-	agent95:	6 000
-	agent96:	6 000
-	agent97:	6 000
-	agent98:	6 000
-	agent99:	4 400
+	agent1:	2 587
+	agent10:	796
+	agent100:	1 990
+	agent101:	1 194
+	agent102:	995
+	agent103:	4 179
+	agent104:	4 378
+	agent105:	1 393
+	agent106:	1 990
+	agent107:	1 592
+	agent108:	1 393
+	agent109:	995
+	agent11:	1 791
+	agent110:	796
+	agent111:	3 980
+	agent112:	3 781
+	agent113:	2 786
+	agent114:	3 383
+	agent115:	1 393
+	agent116:	1 393
+	agent117:	2 985
+	agent118:	2 786
+	agent119:	3 383
+	agent12:	1 791
+	agent120:	3 383
+	agent121:	1 990
+	agent122:	1 791
+	agent123:	1 393
+	agent124:	1 592
+	agent125:	597
+	agent126:	597
+	agent127:	3 383
+	agent128:	2 985
+	agent129:	3 980
+	agent13:	1 791
+	agent130:	4 179
+	agent131:	1 592
+	agent132:	1 791
+	agent133:	1 393
+	agent134:	2 388
+	agent135:	2 985
+	agent136:	2 985
+	agent137:	995
+	agent138:	995
+	agent139:	1 990
+	agent14:	1 990
+	agent140:	1 990
+	agent141:	1 791
+	agent142:	1 194
+	agent143:	1 990
+	agent144:	1 990
+	agent145:	1 990
+	agent146:	1 990
+	agent147:	1 592
+	agent148:	1 393
+	agent149:	398
+	agent15:	1 592
+	agent150:	199
+	agent151:	597
+	agent152:	597
+	agent153:	796
+	agent154:	995
+	agent155:	4 378
+	agent156:	4 378
+	agent157:	1 194
+	agent158:	199
+	agent159:	6 368
+	agent16:	1 393
+	agent160:	6 567
+	agent161:	5 174
+	agent162:	5 572
+	agent163:	5 572
+	agent164:	5 970
+	agent165:	5 572
+	agent166:	5 373
+	agent167:	5 174
+	agent168:	4 975
+	agent169:	2 587
+	agent17:	995
+	agent170:	2 388
+	agent171:	1 990
+	agent172:	1 990
+	agent173:	2 985
+	agent174:	2 587
+	agent175:	1 791
+	agent176:	1 791
+	agent177:	1 990
+	agent178:	1 592
+	agent179:	8 756
+	agent18:	1 393
+	agent180:	7 562
+	agent181:	2 587
+	agent182:	2 189
+	agent183:	2 587
+	agent184:	2 388
+	agent185:	1 194
+	agent186:	1 791
+	agent187:	1 194
+	agent188:	1 393
+	agent189:	1 393
+	agent19:	5 174
+	agent190:	1 194
+	agent191:	1 194
+	agent192:	995
+	agent193:	995
+	agent194:	1 194
+	agent195:	1 393
+	agent196:	1 592
+	agent197:	2 985
+	agent198:	3 184
+	agent199:	199
+	agent2:	2 388
+	agent20:	4 975
+	agent200:	398
+	agent21:	5 174
+	agent22:	4 975
+	agent23:	1 194
+	agent24:	1 393
+	agent25:	2 985
+	agent26:	2 985
+	agent27:	995
+	agent28:	995
+	agent29:	1 791
+	agent3:	2 786
+	agent30:	1 791
+	agent31:	597
+	agent32:	796
+	agent33:	1 791
+	agent34:	1 791
+	agent35:	1 791
+	agent36:	1 990
+	agent37:	1 791
+	agent38:	1 990
+	agent39:	4 378
+	agent4:	2 587
+	agent40:	4 179
+	agent41:	4 378
+	agent42:	4 179
+	agent43:	5 174
+	agent44:	5 572
+	agent45:	5 174
+	agent46:	5 572
+	agent47:	6 368
+	agent48:	6 567
+	agent49:	3 184
+	agent5:	597
+	agent50:	3 184
+	agent51:	3 582
+	agent52:	3 781
+	agent53:	995
+	agent54:	1 194
+	agent55:	1 791
+	agent56:	1 791
+	agent57:	1 592
+	agent58:	1 393
+	agent59:	1 592
+	agent6:	199
+	agent60:	1 393
+	agent61:	3 184
+	agent62:	2 587
+	agent63:	2 786
+	agent64:	2 985
+	agent65:	1 791
+	agent66:	1 791
+	agent67:	1 791
+	agent68:	1 791
+	agent69:	1 393
+	agent7:	796
+	agent70:	1 990
+	agent71:	3 383
+	agent72:	3 383
+	agent73:	3 383
+	agent74:	3 383
+	agent75:	2 985
+	agent76:	2 985
+	agent77:	1 791
+	agent78:	1 791
+	agent79:	1 393
+	agent8:	1 393
+	agent80:	1 393
+	agent81:	995
+	agent82:	995
+	agent83:	995
+	agent84:	995
+	agent85:	1 791
+	agent86:	1 791
+	agent87:	597
+	agent88:	597
+	agent89:	4 577
+	agent9:	796
+	agent90:	4 577
+	agent91:	4 577
+	agent92:	4 378
+	agent93:	2 587
+	agent94:	2 587
+	agent95:	2 985
+	agent96:	2 985
+	agent97:	2 985
+	agent98:	2 985
+	agent99:	2 189
 Amount of information sent (by type, in bytes): 
-	[ALL, MGM, improve]:	184 404
-	[ALL, MGM, improve]:	30 016
-	[ALL, MGM, improve]:	71 247
-	[ALL, MGM, improve]:	38 709
-	[ALL, MGM, improve]:	25 728
-	[ALL, MGM, improve]:	25 146
-	[ALL, MGM, improve]:	54 483
-	[ALL, MGM, improve]:	29 925
-	[ALL, MGM, improve]:	25 146
-	[ALL, MGM, improve]:	83 820
-	[ALL, MGM, improve]:	58 674
-	[ALL, MGM, improve]:	64 320
-	[ALL, MGM, improve]:	38 592
-	[ALL, MGM, improve]:	60 760
-	[ALL, MGM, improve]:	43 010
-	[ALL, MGM, improve]:	30 016
-	[ALL, MGM, improve]:	92 202
-	[ALL, MGM, improve]:	88 011
-	[ALL, MGM, improve]:	41 910
-	[ALL, MGM, improve]:	43 010
-	[ALL, MGM, improve]:	25 146
-	[ALL, MGM, improve]:	96 393
-	[ALL, MGM, improve]:	71 247
-	[ALL, MGM, improve]:	68 400
-	[ALL, MGM, improve]:	162 450
-	[ALL, MGM, improve]:	54 483
-	[ALL, MGM, improve]:	43 010
-	[ALL, MGM, improve]:	25 650
-	[ALL, MGM, improve]:	41 910
-	[ALL, MGM, improve]:	62 865
-	[ALL, MGM, improve]:	33 528
-	[ALL, MGM, improve]:	42 750
-	[ALL, MGM, improve]:	34 200
-	[ALL, MGM, improve]:	55 913
-	[ALL, MGM, improve]:	58 674
-	[ALL, MGM, improve]:	67 056
-	[ALL, MGM, improve]:	62 865
-	[ALL, MGM, improve]:	92 202
-	[ALL, MGM, improve]:	46 101
-	[ALL, MGM, improve]:	42 750
-	[ALL, MGM, improve]:	64 125
-	[ALL, MGM, improve]:	92 202
-	[ALL, MGM, improve]:	50 292
-	[ALL, MGM, improve]:	72 896
-	[ALL, MGM, improve]:	54 483
-	[ALL, MGM, improve]:	42 750
-	[ALL, MGM, improve]:	85 500
-	[ALL, MGM, improve]:	58 674
-	[ALL, MGM, improve]:	25 806
-	[ALL, MGM, improve]:	42 880
-	[ALL, MGM, improve]:	25 884
-	[ALL, MGM, improve]:	51 300
-	[ALL, MGM, improve]:	54 483
-	[ALL, MGM, improve]:	33 528
-	[ALL, MGM, improve]:	38 592
-	[ALL, MGM, improve]:	37 719
-	[ALL, MGM, improve]:	38 592
-	[ALL, MGM, improve]:	41 910
-	[ALL, MGM, improve]:	92 202
-	[ALL, MGM, improve]:	92 202
-	[ALL, MGM, improve]:	88 011
-	[ALL, MGM, improve]:	108 966
-	[ALL, MGM, improve]:	117 348
-	[ALL, MGM, improve]:	138 303
-	[ALL, MGM, improve]:	96 393
-	[ALL, MGM, improve]:	88 011
-	[ALL, MGM, improve]:	138 303
-	[ALL, MGM, improve]:	117 348
-	[ALL, MGM, improve]:	108 966
-	[ALL, MGM, improve]:	96 393
-	[ALL, MGM, improve]:	128 250
-	[ALL, MGM, improve]:	117 348
-	[ALL, MGM, improve]:	108 966
-	[ALL, MGM, improve]:	54 483
-	[ALL, MGM, improve]:	62 865
-	[ALL, MGM, improve]:	38 475
-	[ALL, MGM, improve]:	37 719
-	[ALL, MGM, improve]:	88 011
-	[ALL, MGM, improve]:	117 348
-	[ALL, MGM, improve]:	92 202
-	[ALL, MGM, improve]:	134 112
-	[ALL, MGM, improve]:	134 112
-	[ALL, MGM, improve]:	43 530
-	[ALL, MGM, improve]:	38 826
-	[ALL, MGM, improve]:	79 629
-	[ALL, MGM, improve]:	38 826
-	[ALL, MGM, improve]:	42 880
-	[ALL, MGM, improve]:	64 710
-	[ALL, MGM, improve]:	29 337
-	[ALL, MGM, improve]:	42 750
-	[ALL, MGM, improve]:	62 865
-	[ALL, MGM, improve]:	64 125
-	[ALL, MGM, improve]:	64 320
-	[ALL, MGM, improve]:	64 710
-	[ALL, MGM, improve]:	62 865
-	[ALL, MGM, improve]:	62 865
-	[ALL, MGM, improve]:	64 125
-	[ALL, MGM, improve]:	46 101
-	[ALL, MGM, improve]:	62 865
-	[ALL, MGM, improve]:	62 865
-	[ALL, MGM, improve]:	43 010
-	[ALL, MGM, improve]:	42 880
-	[ALL, MGM, improve]:	30 107
-	[ALL, MGM, improve]:	41 910
-	[ALL, MGM, improve]:	30 016
-	[ALL, MGM, improve]:	17 100
-	[ALL, MGM, improve]:	54 483
-	[ALL, MGM, improve]:	21 375
-	[ALL, MGM, improve]:	50 292
-	[ALL, MGM, improve]:	54 483
-	[ALL, MGM, improve]:	55 575
-	[ALL, MGM, improve]:	34 408
-	[ALL, MGM, improve]:	37 719
-	[ALL, MGM, improve]:	12 825
-	[ALL, MGM, improve]:	12 825
-	[ALL, MGM, improve]:	37 719
-	[ALL, MGM, improve]:	37 719
-	[ALL, MGM, improve]:	38 709
-	[ALL, MGM, improve]:	38 826
-	[ALL, MGM, improve]:	20 955
-	[ALL, MGM, improve]:	21 375
-	[ALL, MGM, improve]:	25 146
-	[ALL, MGM, improve]:	21 375
-	[ALL, MGM, improve]:	12 825
-	[ALL, MGM, improve]:	12 573
-	[ALL, MGM, improve]:	21 635
-	[ALL, MGM, improve]:	21 635
-	[ALL, MGM, improve]:	38 826
-	[ALL, MGM, improve]:	38 826
-	[ALL, MGM, improve]:	38 592
-	[ALL, MGM, improve]:	37 719
-	[ALL, MGM, improve]:	37 719
-	[ALL, MGM, improve]:	38 475
-	[ALL, MGM, improve]:	37 719
-	[ALL, MGM, improve]:	38 475
-	[ALL, MGM, improve]:	108 966
-	[ALL, MGM, improve]:	108 966
-	[ALL, MGM, improve]:	108 966
-	[ALL, MGM, improve]:	71 247
-	[ALL, MGM, improve]:	117 348
-	[ALL, MGM, improve]:	38 592
-	[ALL, MGM, improve]:	34 200
-	[ALL, MGM, improve]:	38 826
-	[ALL, MGM, improve]:	30 107
-	[ALL, MGM, improve]:	30 107
-	[ALL, MGM, improve]:	21 505
-	[ALL, MGM, improve]:	16 764
-	[ALL, MGM, improve]:	17 256
-	[ALL, MGM, improve]:	29 925
-	[ALL, MGM, improve]:	8 550
-	[ALL, MGM, improve]:	8 550
-	[ALL, MGM, improve]:	12 825
-	[ALL, MGM, improve]:	17 308
-	[ALL, MGM, improve]:	20 955
-	[ALL, MGM, improve]:	29 337
-	[ALL, MGM, improve]:	30 016
-	[ALL, MGM, improve]:	71 247
-	[ALL, MGM, improve]:	71 247
-	[ALL, MGM, improve]:	71 247
-	[ALL, MGM, improve]:	104 775
-	[ALL, MGM, improve]:	104 775
-	[ALL, MGM, improve]:	72 675
-	[ALL, MGM, improve]:	104 775
-	[ALL, MGM, improve]:	68 608
-	[ALL, MGM, improve]:	79 629
-	[ALL, MGM, improve]:	75 438
-	[ALL, MGM, improve]:	113 157
-	[ALL, MGM, improve]:	67 056
-	[ALL, MGM, improve]:	21 375
-	[ALL, MGM, improve]:	29 337
-	[ALL, MGM, improve]:	34 200
-	[ALL, MGM, improve]:	30 107
-	[ALL, MGM, improve]:	34 200
-	[ALL, MGM, improve]:	50 292
-	[ALL, MGM, improve]:	29 925
-	[ALL, MGM, improve]:	17 204
-	[ALL, MGM, improve]:	21 505
-	[ALL, MGM, improve]:	17 256
-	[ALL, MGM, improve]:	12 942
-	[ALL, MGM, improve]:	30 107
-	[ALL, MGM, improve]:	29 925
-	[ALL, MGM, improve]:	12 825
-	[ALL, MGM, improve]:	12 825
-	[ALL, MGM, improve]:	4 275
-	[ALL, MGM, improve]:	4 275
-	[ALL, MGM, improve]:	4 275
-	[ALL, MGM, improve]:	25 806
-	[ALL, MGM, improve]:	29 925
-	[ALL, MGM, improve]:	34 304
-	[ALL, MGM, improve]:	37 719
-	[ALL, MGM, improve]:	34 200
-	[ALL, MGM, improve]:	25 650
-	[ALL, MGM, improve]:	30 107
-	[ALL, MGM, improve]:	29 337
-	[ALL, MGM, improve]:	20 955
-	[ALL, MGM, improve]:	4 275
-	[ALL, MGM, improve]:	20 955
-	[ALL, MGM, improve]:	21 375
-	[ALL, MGM, improve]:	21 375
-	[ALL, MGM, improve]:	20 955
-	[ALL, MGM, ok]:	185 676
-	[ALL, MGM, ok]:	29 596
-	[ALL, MGM, ok]:	71 740
-	[ALL, MGM, ok]:	38 051
-	[ALL, MGM, ok]:	25 320
-	[ALL, MGM, ok]:	25 320
-	[ALL, MGM, ok]:	54 845
-	[ALL, MGM, ok]:	29 596
-	[ALL, MGM, ok]:	25 320
-	[ALL, MGM, ok]:	84 400
-	[ALL, MGM, ok]:	59 064
-	[ALL, MGM, ok]:	63 420
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	59 192
-	[ALL, MGM, ok]:	42 200
-	[ALL, MGM, ok]:	29 596
-	[ALL, MGM, ok]:	92 836
-	[ALL, MGM, ok]:	88 616
-	[ALL, MGM, ok]:	42 200
-	[ALL, MGM, ok]:	42 280
-	[ALL, MGM, ok]:	25 320
-	[ALL, MGM, ok]:	97 056
-	[ALL, MGM, ok]:	71 736
-	[ALL, MGM, ok]:	67 645
-	[ALL, MGM, ok]:	160 356
-	[ALL, MGM, ok]:	54 857
-	[ALL, MGM, ok]:	42 280
-	[ALL, MGM, ok]:	25 319
-	[ALL, MGM, ok]:	42 200
-	[ALL, MGM, ok]:	63 296
-	[ALL, MGM, ok]:	33 760
-	[ALL, MGM, ok]:	42 280
-	[ALL, MGM, ok]:	33 760
-	[ALL, MGM, ok]:	54 962
-	[ALL, MGM, ok]:	59 078
-	[ALL, MGM, ok]:	67 520
-	[ALL, MGM, ok]:	63 300
-	[ALL, MGM, ok]:	92 836
-	[ALL, MGM, ok]:	46 420
-	[ALL, MGM, ok]:	42 276
-	[ALL, MGM, ok]:	63 416
-	[ALL, MGM, ok]:	92 836
-	[ALL, MGM, ok]:	50 626
-	[ALL, MGM, ok]:	71 872
-	[ALL, MGM, ok]:	54 845
-	[ALL, MGM, ok]:	42 280
-	[ALL, MGM, ok]:	84 556
-	[ALL, MGM, ok]:	59 080
-	[ALL, MGM, ok]:	25 368
-	[ALL, MGM, ok]:	42 200
-	[ALL, MGM, ok]:	25 320
-	[ALL, MGM, ok]:	50 736
-	[ALL, MGM, ok]:	54 856
-	[ALL, MGM, ok]:	33 757
-	[ALL, MGM, ok]:	38 040
-	[ALL, MGM, ok]:	37 968
-	[ALL, MGM, ok]:	37 968
-	[ALL, MGM, ok]:	42 187
-	[ALL, MGM, ok]:	92 840
-	[ALL, MGM, ok]:	92 840
-	[ALL, MGM, ok]:	88 620
-	[ALL, MGM, ok]:	109 720
-	[ALL, MGM, ok]:	118 160
-	[ALL, MGM, ok]:	139 260
-	[ALL, MGM, ok]:	97 060
-	[ALL, MGM, ok]:	88 620
-	[ALL, MGM, ok]:	139 260
-	[ALL, MGM, ok]:	118 160
-	[ALL, MGM, ok]:	109 720
-	[ALL, MGM, ok]:	97 060
-	[ALL, MGM, ok]:	126 840
-	[ALL, MGM, ok]:	118 160
-	[ALL, MGM, ok]:	109 720
-	[ALL, MGM, ok]:	54 860
-	[ALL, MGM, ok]:	63 300
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	37 980
-	[ALL, MGM, ok]:	88 620
-	[ALL, MGM, ok]:	118 160
-	[ALL, MGM, ok]:	92 840
-	[ALL, MGM, ok]:	135 040
-	[ALL, MGM, ok]:	135 040
-	[ALL, MGM, ok]:	42 280
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	80 180
-	[ALL, MGM, ok]:	37 980
-	[ALL, MGM, ok]:	42 280
-	[ALL, MGM, ok]:	63 420
-	[ALL, MGM, ok]:	29 540
-	[ALL, MGM, ok]:	42 280
-	[ALL, MGM, ok]:	63 300
-	[ALL, MGM, ok]:	63 300
-	[ALL, MGM, ok]:	63 420
-	[ALL, MGM, ok]:	63 420
-	[ALL, MGM, ok]:	63 300
-	[ALL, MGM, ok]:	63 300
-	[ALL, MGM, ok]:	63 420
-	[ALL, MGM, ok]:	46 420
-	[ALL, MGM, ok]:	63 300
-	[ALL, MGM, ok]:	63 300
-	[ALL, MGM, ok]:	42 280
-	[ALL, MGM, ok]:	42 200
-	[ALL, MGM, ok]:	29 540
-	[ALL, MGM, ok]:	42 200
-	[ALL, MGM, ok]:	29 596
-	[ALL, MGM, ok]:	16 880
-	[ALL, MGM, ok]:	54 860
-	[ALL, MGM, ok]:	21 140
-	[ALL, MGM, ok]:	50 640
-	[ALL, MGM, ok]:	54 860
-	[ALL, MGM, ok]:	54 964
-	[ALL, MGM, ok]:	33 760
-	[ALL, MGM, ok]:	37 980
-	[ALL, MGM, ok]:	12 660
-	[ALL, MGM, ok]:	12 684
-	[ALL, MGM, ok]:	37 980
-	[ALL, MGM, ok]:	37 980
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	21 100
-	[ALL, MGM, ok]:	21 100
-	[ALL, MGM, ok]:	25 320
-	[ALL, MGM, ok]:	21 140
-	[ALL, MGM, ok]:	12 684
-	[ALL, MGM, ok]:	12 660
-	[ALL, MGM, ok]:	21 140
-	[ALL, MGM, ok]:	21 100
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	37 980
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	37 980
-	[ALL, MGM, ok]:	37 980
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	37 980
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	109 720
-	[ALL, MGM, ok]:	109 720
-	[ALL, MGM, ok]:	109 720
-	[ALL, MGM, ok]:	71 740
-	[ALL, MGM, ok]:	118 160
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	33 824
-	[ALL, MGM, ok]:	38 052
-	[ALL, MGM, ok]:	29 540
-	[ALL, MGM, ok]:	29 596
-	[ALL, MGM, ok]:	21 139
-	[ALL, MGM, ok]:	16 873
-	[ALL, MGM, ok]:	16 905
-	[ALL, MGM, ok]:	29 585
-	[ALL, MGM, ok]:	8 455
-	[ALL, MGM, ok]:	8 439
-	[ALL, MGM, ok]:	12 654
-	[ALL, MGM, ok]:	16 872
-	[ALL, MGM, ok]:	21 100
-	[ALL, MGM, ok]:	29 540
-	[ALL, MGM, ok]:	29 596
-	[ALL, MGM, ok]:	71 740
-	[ALL, MGM, ok]:	71 740
-	[ALL, MGM, ok]:	71 740
-	[ALL, MGM, ok]:	105 500
-	[ALL, MGM, ok]:	105 500
-	[ALL, MGM, ok]:	71 876
-	[ALL, MGM, ok]:	105 500
-	[ALL, MGM, ok]:	67 648
-	[ALL, MGM, ok]:	80 180
-	[ALL, MGM, ok]:	75 960
-	[ALL, MGM, ok]:	113 940
-	[ALL, MGM, ok]:	67 520
-	[ALL, MGM, ok]:	21 140
-	[ALL, MGM, ok]:	29 540
-	[ALL, MGM, ok]:	33 824
-	[ALL, MGM, ok]:	29 540
-	[ALL, MGM, ok]:	33 824
-	[ALL, MGM, ok]:	50 640
-	[ALL, MGM, ok]:	29 596
-	[ALL, MGM, ok]:	16 912
-	[ALL, MGM, ok]:	21 100
-	[ALL, MGM, ok]:	16 912
-	[ALL, MGM, ok]:	12 660
-	[ALL, MGM, ok]:	29 540
-	[ALL, MGM, ok]:	29 596
-	[ALL, MGM, ok]:	12 684
-	[ALL, MGM, ok]:	12 660
-	[ALL, MGM, ok]:	4 226
-	[ALL, MGM, ok]:	4 228
-	[ALL, MGM, ok]:	4 220
-	[ALL, MGM, ok]:	25 368
-	[ALL, MGM, ok]:	29 596
-	[ALL, MGM, ok]:	33 824
-	[ALL, MGM, ok]:	37 980
-	[ALL, MGM, ok]:	33 760
-	[ALL, MGM, ok]:	25 320
-	[ALL, MGM, ok]:	29 596
-	[ALL, MGM, ok]:	29 540
-	[ALL, MGM, ok]:	21 100
-	[ALL, MGM, ok]:	4 228
-	[ALL, MGM, ok]:	21 100
-	[ALL, MGM, ok]:	21 140
-	[ALL, MGM, ok]:	21 140
-	[ALL, MGM, ok]:	21 100
-	- Total:	20 865 805
+	[ALL, DSA, VALUE]:	185 060
+	[ALL, DSA, VALUE]:	159 824
+	[ALL, DSA, VALUE]:	58 868
+	[ALL, DSA, VALUE]:	92 528
+	[ALL, DSA, VALUE]:	92 528
+	[ALL, DSA, VALUE]:	96 734
+	[ALL, DSA, VALUE]:	92 528
+	[ALL, DSA, VALUE]:	88 322
+	[ALL, DSA, VALUE]:	84 120
+	[ALL, DSA, VALUE]:	67 293
+	[ALL, DSA, VALUE]:	54 676
+	[ALL, DSA, VALUE]:	58 882
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	71 498
+	[ALL, DSA, VALUE]:	54 663
+	[ALL, DSA, VALUE]:	71 498
+	[ALL, DSA, VALUE]:	54 675
+	[ALL, DSA, VALUE]:	63 345
+	[ALL, DSA, VALUE]:	67 296
+	[ALL, DSA, VALUE]:	63 086
+	[ALL, DSA, VALUE]:	54 663
+	[ALL, DSA, VALUE]:	46 266
+	[ALL, DSA, VALUE]:	59 122
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	63 086
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	50 458
+	[ALL, DSA, VALUE]:	42 056
+	[ALL, DSA, VALUE]:	33 648
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	42 230
+	[ALL, DSA, VALUE]:	38 087
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	33 648
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	25 337
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	25 338
+	[ALL, DSA, VALUE]:	25 338
+	[ALL, DSA, VALUE]:	25 338
+	[ALL, DSA, VALUE]:	84 116
+	[ALL, DSA, VALUE]:	58 884
+	[ALL, DSA, VALUE]:	50 676
+	[ALL, DSA, VALUE]:	42 230
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	25 338
+	[ALL, DSA, VALUE]:	25 338
+	[ALL, DSA, VALUE]:	42 047
+	[ALL, DSA, VALUE]:	37 842
+	[ALL, DSA, VALUE]:	54 895
+	[ALL, DSA, VALUE]:	37 986
+	[ALL, DSA, VALUE]:	37 842
+	[ALL, DSA, VALUE]:	33 645
+	[ALL, DSA, VALUE]:	79 914
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	63 480
+	[ALL, DSA, VALUE]:	46 453
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	63 345
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	63 345
+	[ALL, DSA, VALUE]:	63 345
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	38 007
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	42 230
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	50 472
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	16 892
+	[ALL, DSA, VALUE]:	54 899
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	38 007
+	[ALL, DSA, VALUE]:	12 618
+	[ALL, DSA, VALUE]:	12 618
+	[ALL, DSA, VALUE]:	38 007
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	21 029
+	[ALL, DSA, VALUE]:	16 817
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	29 431
+	[ALL, DSA, VALUE]:	25 338
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	92 532
+	[ALL, DSA, VALUE]:	88 326
+	[ALL, DSA, VALUE]:	88 683
+	[ALL, DSA, VALUE]:	92 532
+	[ALL, DSA, VALUE]:	109 356
+	[ALL, DSA, VALUE]:	118 244
+	[ALL, DSA, VALUE]:	109 356
+	[ALL, DSA, VALUE]:	109 356
+	[ALL, DSA, VALUE]:	96 738
+	[ALL, DSA, VALUE]:	96 738
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	63 345
+	[ALL, DSA, VALUE]:	135 136
+	[ALL, DSA, VALUE]:	138 798
+	[ALL, DSA, VALUE]:	118 244
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	138 798
+	[ALL, DSA, VALUE]:	105 150
+	[ALL, DSA, VALUE]:	134 592
+	[ALL, DSA, VALUE]:	126 180
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	105 150
+	[ALL, DSA, VALUE]:	113 562
+	[ALL, DSA, VALUE]:	109 356
+	[ALL, DSA, VALUE]:	105 150
+	[ALL, DSA, VALUE]:	109 356
+	[ALL, DSA, VALUE]:	109 356
+	[ALL, DSA, VALUE]:	71 791
+	[ALL, DSA, VALUE]:	67 296
+	[ALL, DSA, VALUE]:	75 708
+	[ALL, DSA, VALUE]:	79 914
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	67 296
+	[ALL, DSA, VALUE]:	88 326
+	[ALL, DSA, VALUE]:	92 532
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	21 115
+	[ALL, DSA, VALUE]:	12 669
+	[ALL, DSA, VALUE]:	12 696
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	21 115
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	33 784
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	33 648
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	38 007
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	38 007
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	16 880
+	[ALL, DSA, VALUE]:	16 881
+	[ALL, DSA, VALUE]:	12 660
+	[ALL, DSA, VALUE]:	8 411
+	[ALL, DSA, VALUE]:	8 411
+	[ALL, DSA, VALUE]:	33 784
+	[ALL, DSA, VALUE]:	33 648
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	16 928
+	[ALL, DSA, VALUE]:	50 472
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	16 892
+	[ALL, DSA, VALUE]:	12 696
+	[ALL, DSA, VALUE]:	12 669
+	[ALL, DSA, VALUE]:	4 220
+	[ALL, DSA, VALUE]:	4 223
+	[ALL, DSA, VALUE]:	4 223
+	[ALL, DSA, VALUE]:	33 784
+	[ALL, DSA, VALUE]:	33 784
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	25 338
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	12 669
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	21 115
+	[ALL, DSA, VALUE]:	4 206
+	[ALL, DSA, VALUE]:	21 160
+	[ALL, DSA, VALUE]:	21 115
+	[ALL, DSA, VALUE]:	21 115
+	[ALL, DSA, VALUE]:	21 160
+	- Total:	10 399 137
 Amount of information sent (by agent, in bytes): 
-	agent1:	109 328
-	agent10:	33 637
-	agent100:	85 290
-	agent101:	50 466
-	agent102:	42 055
-	agent103:	176 631
-	agent104:	185 042
-	agent105:	59 647
-	agent106:	85 290
-	agent107:	67 288
-	agent108:	59 612
-	agent109:	42 605
-	agent11:	76 560
-	agent110:	34 116
-	agent111:	168 220
-	agent112:	159 809
-	agent113:	119 952
-	agent114:	142 987
-	agent115:	58 877
-	agent116:	59 612
-	agent117:	127 740
-	agent118:	117 754
-	agent119:	142 983
-	agent12:	76 632
-	agent120:	144 768
-	agent121:	85 030
-	agent122:	75 699
-	agent123:	59 647
-	agent124:	68 024
-	agent125:	25 485
-	agent126:	25 509
-	agent127:	142 987
-	agent128:	126 165
-	agent129:	170 056
-	agent13:	75 687
-	agent130:	176 627
-	agent131:	68 128
-	agent132:	75 699
-	agent133:	59 521
-	agent134:	100 932
-	agent135:	126 165
-	agent136:	126 165
-	agent137:	42 475
-	agent138:	42 515
-	agent139:	85 080
-	agent14:	84 097
-	agent140:	85 030
-	agent141:	76 644
-	agent142:	50 466
-	agent143:	85 210
-	agent144:	85 290
-	agent145:	85 160
-	agent146:	84 110
-	agent147:	68 168
-	agent148:	59 703
-	agent149:	16 989
-	agent15:	67 960
-	agent150:	8 503
-	agent151:	25 485
-	agent152:	25 509
-	agent153:	33 980
-	agent154:	42 515
-	agent155:	185 038
-	agent156:	185 038
-	agent157:	50 970
-	agent158:	8 503
-	agent159:	269 152
-	agent16:	59 703
-	agent160:	277 563
-	agent161:	218 686
-	agent162:	235 508
-	agent163:	235 508
-	agent164:	255 090
-	agent165:	235 508
-	agent166:	227 097
-	agent167:	218 686
-	agent168:	210 275
-	agent169:	109 343
-	agent17:	42 055
-	agent170:	100 932
-	agent171:	85 030
-	agent172:	84 110
-	agent173:	126 161
-	agent174:	109 339
-	agent175:	75 699
-	agent176:	76 527
-	agent177:	85 026
-	agent178:	67 285
-	agent179:	370 080
-	agent18:	59 521
-	agent180:	322 806
-	agent181:	110 875
-	agent182:	92 521
-	agent183:	109 343
-	agent184:	102 036
-	agent185:	51 204
-	agent186:	76 760
-	agent187:	51 048
-	agent188:	59 612
-	agent189:	59 521
-	agent19:	218 686
-	agent190:	50 466
-	agent191:	50 466
-	agent192:	42 515
-	agent193:	42 055
-	agent194:	51 174
-	agent195:	59 612
-	agent196:	67 960
-	agent197:	127 545
-	agent198:	134 576
-	agent199:	8 495
-	agent2:	100 918
-	agent20:	210 275
-	agent200:	17 005
-	agent21:	218 686
-	agent22:	210 275
-	agent23:	51 174
-	agent24:	58 877
-	agent25:	127 425
-	agent26:	126 165
-	agent27:	42 735
-	agent28:	42 775
-	agent29:	75 699
-	agent3:	117 738
-	agent30:	76 878
-	agent31:	25 602
-	agent32:	34 168
-	agent33:	76 806
-	agent34:	76 878
-	agent35:	76 644
-	agent36:	85 080
-	agent37:	76 878
-	agent38:	84 110
-	agent39:	185 042
-	agent4:	109 328
-	agent40:	176 631
-	agent41:	185 042
-	agent42:	176 631
-	agent43:	218 686
-	agent44:	235 508
-	agent45:	218 686
-	agent46:	235 508
-	agent47:	269 152
-	agent48:	277 563
-	agent49:	134 576
-	agent5:	25 479
-	agent50:	136 256
-	agent51:	151 398
-	agent52:	159 809
-	agent53:	42 644
-	agent54:	50 969
-	agent55:	76 527
-	agent56:	75 699
-	agent57:	68 024
-	agent58:	59 647
-	agent59:	68 024
-	agent6:	8 501
-	agent60:	58 877
-	agent61:	136 045
-	agent62:	109 340
-	agent63:	117 752
-	agent64:	127 541
-	agent65:	75 699
-	agent66:	76 527
-	agent67:	75 699
-	agent68:	76 644
-	agent69:	58 877
-	agent7:	34 180
-	agent70:	85 810
-	agent71:	142 987
-	agent72:	142 987
-	agent73:	142 987
-	agent74:	144 551
-	agent75:	126 165
-	agent76:	127 740
-	agent77:	76 806
-	agent78:	76 878
-	agent79:	59 647
-	agent8:	59 510
-	agent80:	59 521
-	agent81:	42 515
-	agent82:	42 055
-	agent83:	42 515
-	agent84:	42 055
-	agent85:	75 699
-	agent86:	76 761
-	agent87:	25 233
-	agent88:	25 509
-	agent89:	193 453
-	agent9:	34 161
-	agent90:	193 453
-	agent91:	193 449
-	agent92:	185 038
-	agent93:	109 343
-	agent94:	110 539
-	agent95:	126 165
-	agent96:	128 130
-	agent97:	126 165
-	agent98:	128 130
-	agent99:	92 521
+	agent1:	54 663
+	agent10:	16 817
+	agent100:	42 060
+	agent101:	25 338
+	agent102:	21 030
+	agent103:	88 326
+	agent104:	92 532
+	agent105:	29 442
+	agent106:	42 060
+	agent107:	33 648
+	agent108:	29 442
+	agent109:	21 030
+	agent11:	37 842
+	agent110:	16 892
+	agent111:	84 120
+	agent112:	79 914
+	agent113:	59 122
+	agent114:	71 502
+	agent115:	29 442
+	agent116:	29 561
+	agent117:	63 090
+	agent118:	58 884
+	agent119:	71 498
+	agent12:	37 842
+	agent120:	71 498
+	agent121:	42 060
+	agent122:	38 007
+	agent123:	29 561
+	agent124:	33 784
+	agent125:	12 669
+	agent126:	12 696
+	agent127:	71 502
+	agent128:	63 345
+	agent129:	84 116
+	agent13:	37 986
+	agent130:	88 322
+	agent131:	33 784
+	agent132:	37 854
+	agent133:	29 561
+	agent134:	50 472
+	agent135:	63 480
+	agent136:	63 345
+	agent137:	21 030
+	agent138:	21 115
+	agent139:	42 230
+	agent14:	42 047
+	agent140:	42 060
+	agent141:	37 854
+	agent142:	25 338
+	agent143:	42 060
+	agent144:	42 230
+	agent145:	42 060
+	agent146:	42 060
+	agent147:	33 648
+	agent148:	29 561
+	agent149:	8 411
+	agent15:	33 784
+	agent150:	4 223
+	agent151:	12 669
+	agent152:	12 696
+	agent153:	16 892
+	agent154:	21 030
+	agent155:	92 528
+	agent156:	92 528
+	agent157:	25 338
+	agent158:	4 206
+	agent159:	135 136
+	agent16:	29 442
+	agent160:	138 798
+	agent161:	109 356
+	agent162:	118 244
+	agent163:	117 768
+	agent164:	126 180
+	agent165:	118 244
+	agent166:	113 562
+	agent167:	109 356
+	agent168:	105 150
+	agent169:	54 678
+	agent17:	21 115
+	agent170:	50 472
+	agent171:	42 060
+	agent172:	42 060
+	agent173:	63 086
+	agent174:	54 895
+	agent175:	37 854
+	agent176:	38 007
+	agent177:	42 056
+	agent178:	33 645
+	agent179:	185 060
+	agent18:	29 442
+	agent180:	159 824
+	agent181:	54 676
+	agent182:	46 266
+	agent183:	54 678
+	agent184:	50 676
+	agent185:	25 338
+	agent186:	38 087
+	agent187:	25 338
+	agent188:	29 442
+	agent189:	29 561
+	agent19:	109 356
+	agent190:	25 236
+	agent191:	25 338
+	agent192:	21 030
+	agent193:	21 030
+	agent194:	25 338
+	agent195:	29 561
+	agent196:	33 648
+	agent197:	63 090
+	agent198:	67 296
+	agent199:	4 223
+	agent2:	50 458
+	agent20:	105 150
+	agent200:	8 411
+	agent21:	109 356
+	agent22:	105 150
+	agent23:	25 236
+	agent24:	29 561
+	agent25:	63 345
+	agent26:	63 090
+	agent27:	21 115
+	agent28:	21 030
+	agent29:	37 854
+	agent3:	58 868
+	agent30:	37 854
+	agent31:	12 669
+	agent32:	16 928
+	agent33:	37 854
+	agent34:	37 854
+	agent35:	37 854
+	agent36:	42 060
+	agent37:	37 854
+	agent38:	42 230
+	agent39:	92 532
+	agent4:	54 663
+	agent40:	88 326
+	agent41:	92 532
+	agent42:	88 683
+	agent43:	109 356
+	agent44:	117 768
+	agent45:	109 356
+	agent46:	117 768
+	agent47:	134 592
+	agent48:	138 798
+	agent49:	67 296
+	agent5:	12 660
+	agent50:	67 296
+	agent51:	75 708
+	agent52:	79 914
+	agent53:	21 029
+	agent54:	25 337
+	agent55:	37 854
+	agent56:	38 007
+	agent57:	33 784
+	agent58:	29 442
+	agent59:	33 648
+	agent6:	4 220
+	agent60:	29 561
+	agent61:	67 293
+	agent62:	54 675
+	agent63:	58 882
+	agent64:	63 086
+	agent65:	37 854
+	agent66:	37 854
+	agent67:	38 007
+	agent68:	37 854
+	agent69:	29 561
+	agent7:	16 880
+	agent70:	42 060
+	agent71:	71 791
+	agent72:	71 502
+	agent73:	71 502
+	agent74:	71 502
+	agent75:	63 090
+	agent76:	63 090
+	agent77:	37 854
+	agent78:	38 007
+	agent79:	29 442
+	agent8:	29 431
+	agent80:	29 561
+	agent81:	21 160
+	agent82:	21 115
+	agent83:	21 115
+	agent84:	21 160
+	agent85:	37 854
+	agent86:	37 854
+	agent87:	12 618
+	agent88:	12 618
+	agent89:	96 738
+	agent9:	16 881
+	agent90:	96 738
+	agent91:	96 734
+	agent92:	92 528
+	agent93:	54 899
+	agent94:	54 678
+	agent95:	63 090
+	agent96:	63 345
+	agent97:	63 345
+	agent98:	63 090
+	agent99:	46 453
 Amount of information received (by agent, in bytes): 
-	agent1:	109 609
-	agent10:	34 080
-	agent100:	84 522
-	agent101:	50 726
-	agent102:	42 231
-	agent103:	176 723
-	agent104:	185 134
-	agent105:	59 323
-	agent106:	84 729
-	agent107:	67 844
-	agent108:	59 328
-	agent109:	42 370
-	agent11:	75 976
-	agent110:	33 951
-	agent111:	169 402
-	agent112:	160 991
-	agent113:	118 174
-	agent114:	143 740
-	agent115:	59 394
-	agent116:	59 289
-	agent117:	126 708
-	agent118:	118 402
-	agent119:	143 448
-	agent12:	76 086
-	agent120:	143 343
-	agent121:	84 713
-	agent122:	76 224
-	agent123:	59 394
-	agent124:	67 954
-	agent125:	25 456
-	agent126:	25 448
-	agent127:	143 171
-	agent128:	126 349
-	agent129:	168 974
-	agent13:	76 073
-	agent130:	177 477
-	agent131:	67 666
-	agent132:	76 392
-	agent133:	59 315
-	agent134:	101 906
-	agent135:	126 753
-	agent136:	126 766
-	agent137:	42 147
-	agent138:	42 139
-	agent139:	84 483
-	agent14:	84 601
-	agent140:	84 488
-	agent141:	76 221
-	agent142:	50 917
-	agent143:	84 757
-	agent144:	84 749
-	agent145:	84 823
-	agent146:	84 758
-	agent147:	68 046
-	agent148:	59 496
-	agent149:	17 005
-	agent15:	67 721
-	agent150:	8 495
-	agent151:	25 553
-	agent152:	25 545
-	agent153:	33 736
-	agent154:	42 139
-	agent155:	185 765
-	agent156:	185 883
-	agent157:	50 755
-	agent158:	8 495
-	agent159:	269 441
-	agent16:	59 276
-	agent160:	277 852
-	agent161:	218 778
-	agent162:	235 600
-	agent163:	235 600
-	agent164:	252 330
-	agent165:	235 889
-	agent166:	227 386
-	agent167:	219 067
-	agent168:	210 564
-	agent169:	110 062
-	agent17:	42 454
-	agent170:	101 567
-	agent171:	84 679
-	agent172:	84 737
-	agent173:	126 807
-	agent174:	109 901
-	agent175:	76 242
-	agent176:	76 150
-	agent177:	84 400
-	agent178:	67 566
-	agent179:	372 153
-	agent18:	59 281
-	agent180:	321 551
-	agent181:	109 884
-	agent182:	92 993
-	agent183:	109 768
-	agent184:	101 257
-	agent185:	50 962
-	agent186:	76 409
-	agent187:	50 904
-	agent188:	59 391
-	agent189:	59 255
-	agent19:	219 067
-	agent190:	50 852
-	agent191:	50 768
-	agent192:	42 265
-	agent193:	42 454
-	agent194:	50 831
-	agent195:	59 255
-	agent196:	67 687
-	agent197:	126 792
-	agent198:	135 261
-	agent199:	8 503
-	agent2:	101 291
-	agent20:	210 564
-	agent200:	16 997
-	agent21:	219 067
-	agent22:	210 564
-	agent23:	50 760
-	agent24:	59 386
-	agent25:	126 891
-	agent26:	126 975
-	agent27:	42 537
-	agent28:	42 529
-	agent29:	76 347
-	agent3:	118 111
-	agent30:	76 216
-	agent31:	25 566
-	agent32:	34 061
-	agent33:	76 119
-	agent34:	76 111
-	agent35:	76 449
-	agent36:	84 986
-	agent37:	76 423
-	agent38:	85 083
-	agent39:	185 415
-	agent4:	109 701
-	agent40:	177 004
-	agent41:	185 415
-	agent42:	177 004
-	agent43:	218 778
-	agent44:	235 600
-	agent45:	218 778
-	agent46:	235 600
-	agent47:	269 441
-	agent48:	277 852
-	agent49:	134 681
-	agent5:	25 547
-	agent50:	134 668
-	agent51:	151 595
-	agent52:	159 901
-	agent53:	42 479
-	agent54:	50 759
-	agent55:	76 090
-	agent56:	76 182
-	agent57:	67 739
-	agent58:	59 310
-	agent59:	67 739
-	agent6:	8 493
-	agent60:	59 420
-	agent61:	134 959
-	agent62:	109 713
-	agent63:	118 230
-	agent64:	126 442
-	agent65:	76 242
-	agent66:	76 150
-	agent67:	76 242
-	agent68:	76 137
-	agent69:	59 529
-	agent7:	33 943
-	agent70:	84 920
-	agent71:	143 079
-	agent72:	143 092
-	agent73:	143 079
-	agent74:	143 092
-	agent75:	126 826
-	agent76:	126 839
-	agent77:	76 508
-	agent78:	76 500
-	agent79:	59 407
-	agent8:	59 511
-	agent80:	59 425
-	agent81:	42 349
-	agent82:	42 441
-	agent83:	42 349
-	agent84:	42 441
-	agent85:	76 347
-	agent86:	76 229
-	agent87:	25 430
-	agent88:	25 338
-	agent89:	193 637
-	agent9:	33 983
-	agent90:	193 637
-	agent91:	194 294
-	agent92:	185 765
-	agent93:	110 298
-	agent94:	110 206
-	agent95:	126 871
-	agent96:	126 740
-	agent97:	127 094
-	agent98:	127 159
-	agent99:	92 946
+	agent1:	54 663
+	agent10:	16 866
+	agent100:	42 128
+	agent101:	25 296
+	agent102:	21 107
+	agent103:	88 394
+	agent104:	92 600
+	agent105:	29 459
+	agent106:	42 094
+	agent107:	33 665
+	agent108:	29 459
+	agent109:	21 081
+	agent11:	37 875
+	agent110:	16 858
+	agent111:	84 265
+	agent112:	80 059
+	agent113:	58 901
+	agent114:	71 536
+	agent115:	29 510
+	agent116:	29 493
+	agent117:	63 107
+	agent118:	58 901
+	agent119:	71 498
+	agent12:	37 875
+	agent120:	71 498
+	agent121:	42 128
+	agent122:	37 905
+	agent123:	29 493
+	agent124:	33 725
+	agent125:	12 661
+	agent126:	12 652
+	agent127:	71 553
+	agent128:	63 141
+	agent129:	84 166
+	agent13:	37 859
+	agent130:	88 372
+	agent131:	33 733
+	agent132:	37 939
+	agent133:	29 493
+	agent134:	50 574
+	agent135:	63 192
+	agent136:	63 184
+	agent137:	21 107
+	agent138:	21 090
+	agent139:	42 111
+	agent14:	42 080
+	agent140:	42 128
+	agent141:	37 905
+	agent142:	25 270
+	agent143:	42 111
+	agent144:	42 094
+	agent145:	42 128
+	agent146:	42 128
+	agent147:	33 725
+	agent148:	29 502
+	agent149:	8 428
+	agent15:	33 699
+	agent150:	4 206
+	agent151:	12 661
+	agent152:	12 652
+	agent153:	16 841
+	agent154:	21 064
+	agent155:	92 545
+	agent156:	92 545
+	agent157:	25 270
+	agent158:	4 223
+	agent159:	134 660
+	agent16:	29 510
+	agent160:	138 866
+	agent161:	109 424
+	agent162:	117 836
+	agent163:	117 836
+	agent164:	126 265
+	agent165:	117 836
+	agent166:	113 630
+	agent167:	109 441
+	agent168:	105 218
+	agent169:	54 746
+	agent17:	21 081
+	agent170:	50 523
+	agent171:	42 077
+	agent172:	42 077
+	agent173:	63 136
+	agent174:	54 707
+	agent175:	37 888
+	agent176:	37 871
+	agent177:	42 089
+	agent178:	33 678
+	agent179:	185 239
+	agent18:	29 493
+	agent180:	159 986
+	agent181:	54 693
+	agent182:	46 283
+	agent183:	54 772
+	agent184:	50 549
+	agent185:	25 296
+	agent186:	37 904
+	agent187:	25 296
+	agent188:	29 519
+	agent189:	29 476
+	agent19:	109 441
+	agent190:	25 287
+	agent191:	25 270
+	agent192:	21 081
+	agent193:	21 081
+	agent194:	25 270
+	agent195:	29 459
+	agent196:	33 699
+	agent197:	63 201
+	agent198:	67 407
+	agent199:	4 206
+	agent2:	50 458
+	agent20:	105 218
+	agent200:	8 428
+	agent21:	109 441
+	agent22:	105 218
+	agent23:	25 270
+	agent24:	29 510
+	agent25:	63 184
+	agent26:	63 201
+	agent27:	21 064
+	agent28:	21 081
+	agent29:	37 888
+	agent3:	58 868
+	agent30:	37 888
+	agent31:	12 661
+	agent32:	16 875
+	agent33:	37 888
+	agent34:	37 888
+	agent35:	37 939
+	agent36:	42 145
+	agent37:	37 939
+	agent38:	42 128
+	agent39:	92 617
+	agent4:	54 663
+	agent40:	88 411
+	agent41:	92 617
+	agent42:	88 411
+	agent43:	109 424
+	agent44:	117 836
+	agent45:	109 424
+	agent46:	117 836
+	agent47:	134 660
+	agent48:	138 866
+	agent49:	67 347
+	agent5:	12 644
+	agent50:	67 330
+	agent51:	75 759
+	agent52:	79 965
+	agent53:	21 105
+	agent54:	25 252
+	agent55:	37 922
+	agent56:	37 905
+	agent57:	33 665
+	agent58:	29 476
+	agent59:	33 682
+	agent6:	4 220
+	agent60:	29 459
+	agent61:	67 293
+	agent62:	54 675
+	agent63:	58 882
+	agent64:	63 086
+	agent65:	37 888
+	agent66:	37 888
+	agent67:	37 871
+	agent68:	37 888
+	agent69:	29 476
+	agent7:	16 848
+	agent70:	42 111
+	agent71:	71 536
+	agent72:	71 553
+	agent73:	71 536
+	agent74:	71 553
+	agent75:	63 158
+	agent76:	63 150
+	agent77:	37 922
+	agent78:	37 905
+	agent79:	29 588
+	agent8:	29 505
+	agent80:	29 571
+	agent81:	21 107
+	agent82:	21 116
+	agent83:	21 116
+	agent84:	21 107
+	agent85:	37 888
+	agent86:	37 888
+	agent87:	12 618
+	agent88:	12 618
+	agent89:	96 823
+	agent9:	16 833
+	agent90:	96 823
+	agent91:	96 751
+	agent92:	92 545
+	agent93:	54 763
+	agent94:	54 780
+	agent95:	63 227
+	agent96:	63 210
+	agent97:	63 124
+	agent98:	63 141
+	agent99:	46 326
 Size of the largest message sent (by type, in bytes): 
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, improve]:	210
-	[ALL, MGM, improve]:	211
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	239
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	238
-	[ALL, MGM, ok]:	238
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	238
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	[ALL, MGM, ok]:	240
-	- Overall maximum:	240
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	244
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	244
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	244
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	- Overall maximum:	246

@@ -1,0 +1,3750 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: /home/walid/Documents/MAS_Project/MAS_Project/outputFiles/scen06.xcsp
+Parsing the input agent configuration file: /home/walid/Documents/frodo2.17.1/frodo2/agents/DSA/DSAagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent85 {
+		label = agent85;
+		variable471 [style="filled"];
+	}
+	subgraph cluster_agent86 {
+		label = agent86;
+		variable472 [style="filled"];
+	}
+	subgraph cluster_agent83 {
+		label = agent83;
+		variable365 [style="filled"];
+	}
+	subgraph cluster_agent84 {
+		label = agent84;
+		variable366 [style="filled"];
+	}
+	subgraph cluster_agent89 {
+		label = agent89;
+		variable519 [style="filled"];
+	}
+	subgraph cluster_agent87 {
+		label = agent87;
+		variable517 [style="filled"];
+	}
+	subgraph cluster_agent88 {
+		label = agent88;
+		variable518 [style="filled"];
+	}
+	subgraph cluster_agent160 {
+		label = agent160;
+		variable714 [style="filled"];
+	}
+	subgraph cluster_agent161 {
+		label = agent161;
+		variable717 [style="filled"];
+	}
+	subgraph cluster_agent162 {
+		label = agent162;
+		variable718 [style="filled"];
+	}
+	subgraph cluster_agent163 {
+		label = agent163;
+		variable719 [style="filled"];
+	}
+	subgraph cluster_agent164 {
+		label = agent164;
+		variable720 [style="filled"];
+	}
+	subgraph cluster_agent165 {
+		label = agent165;
+		variable721 [style="filled"];
+	}
+	subgraph cluster_agent92 {
+		label = agent92;
+		variable556 [style="filled"];
+	}
+	subgraph cluster_agent166 {
+		label = agent166;
+		variable722 [style="filled"];
+	}
+	subgraph cluster_agent93 {
+		label = agent93;
+		variable557 [style="filled"];
+	}
+	subgraph cluster_agent167 {
+		label = agent167;
+		variable723 [style="filled"];
+	}
+	subgraph cluster_agent90 {
+		label = agent90;
+		variable520 [style="filled"];
+	}
+	subgraph cluster_agent168 {
+		label = agent168;
+		variable724 [style="filled"];
+	}
+	subgraph cluster_agent91 {
+		label = agent91;
+		variable555 [style="filled"];
+	}
+	subgraph cluster_agent169 {
+		label = agent169;
+		variable743 [style="filled"];
+	}
+	subgraph cluster_agent96 {
+		label = agent96;
+		variable560 [style="filled"];
+	}
+	subgraph cluster_agent97 {
+		label = agent97;
+		variable561 [style="filled"];
+	}
+	subgraph cluster_agent94 {
+		label = agent94;
+		variable558 [style="filled"];
+	}
+	subgraph cluster_agent95 {
+		label = agent95;
+		variable559 [style="filled"];
+	}
+	subgraph cluster_agent98 {
+		label = agent98;
+		variable562 [style="filled"];
+	}
+	subgraph cluster_agent99 {
+		label = agent99;
+		variable565 [style="filled"];
+	}
+	subgraph cluster_agent170 {
+		label = agent170;
+		variable744 [style="filled"];
+	}
+	subgraph cluster_agent171 {
+		label = agent171;
+		variable745 [style="filled"];
+	}
+	subgraph cluster_agent172 {
+		label = agent172;
+		variable746 [style="filled"];
+	}
+	subgraph cluster_agent173 {
+		label = agent173;
+		variable747 [style="filled"];
+	}
+	subgraph cluster_agent174 {
+		label = agent174;
+		variable748 [style="filled"];
+	}
+	subgraph cluster_agent175 {
+		label = agent175;
+		variable763 [style="filled"];
+	}
+	subgraph cluster_agent176 {
+		label = agent176;
+		variable764 [style="filled"];
+	}
+	subgraph cluster_agent177 {
+		label = agent177;
+		variable765 [style="filled"];
+	}
+	subgraph cluster_agent178 {
+		label = agent178;
+		variable766 [style="filled"];
+	}
+	subgraph cluster_agent179 {
+		label = agent179;
+		variable767 [style="filled"];
+	}
+	subgraph cluster_agent63 {
+		label = agent63;
+		variable321 [style="filled"];
+	}
+	subgraph cluster_agent64 {
+		label = agent64;
+		variable322 [style="filled"];
+	}
+	subgraph cluster_agent61 {
+		label = agent61;
+		variable309 [style="filled"];
+	}
+	subgraph cluster_agent62 {
+		label = agent62;
+		variable310 [style="filled"];
+	}
+	subgraph cluster_agent67 {
+		label = agent67;
+		variable325 [style="filled"];
+	}
+	subgraph cluster_agent68 {
+		label = agent68;
+		variable326 [style="filled"];
+	}
+	subgraph cluster_agent65 {
+		label = agent65;
+		variable323 [style="filled"];
+	}
+	subgraph cluster_agent66 {
+		label = agent66;
+		variable324 [style="filled"];
+	}
+	subgraph cluster_agent69 {
+		label = agent69;
+		variable327 [style="filled"];
+	}
+	subgraph cluster_agent180 {
+		label = agent180;
+		variable768 [style="filled"];
+	}
+	subgraph cluster_agent181 {
+		label = agent181;
+		variable785 [style="filled"];
+	}
+	subgraph cluster_agent182 {
+		label = agent182;
+		variable786 [style="filled"];
+	}
+	subgraph cluster_agent183 {
+		label = agent183;
+		variable787 [style="filled"];
+	}
+	subgraph cluster_agent184 {
+		label = agent184;
+		variable788 [style="filled"];
+	}
+	subgraph cluster_agent185 {
+		label = agent185;
+		variable789 [style="filled"];
+	}
+	subgraph cluster_agent186 {
+		label = agent186;
+		variable790 [style="filled"];
+	}
+	subgraph cluster_agent187 {
+		label = agent187;
+		variable791 [style="filled"];
+	}
+	subgraph cluster_agent70 {
+		label = agent70;
+		variable328 [style="filled"];
+	}
+	subgraph cluster_agent188 {
+		label = agent188;
+		variable792 [style="filled"];
+	}
+	subgraph cluster_agent71 {
+		label = agent71;
+		variable329 [style="filled"];
+	}
+	subgraph cluster_agent189 {
+		label = agent189;
+		variable793 [style="filled"];
+	}
+	subgraph cluster_agent74 {
+		label = agent74;
+		variable342 [style="filled"];
+	}
+	subgraph cluster_agent75 {
+		label = agent75;
+		variable343 [style="filled"];
+	}
+	subgraph cluster_agent72 {
+		label = agent72;
+		variable330 [style="filled"];
+	}
+	subgraph cluster_agent73 {
+		label = agent73;
+		variable341 [style="filled"];
+	}
+	subgraph cluster_agent78 {
+		label = agent78;
+		variable350 [style="filled"];
+	}
+	subgraph cluster_agent79 {
+		label = agent79;
+		variable351 [style="filled"];
+	}
+	subgraph cluster_agent76 {
+		label = agent76;
+		variable344 [style="filled"];
+	}
+	subgraph cluster_agent77 {
+		label = agent77;
+		variable349 [style="filled"];
+	}
+	subgraph cluster_agent190 {
+		label = agent190;
+		variable794 [style="filled"];
+	}
+	subgraph cluster_agent191 {
+		label = agent191;
+		variable795 [style="filled"];
+	}
+	subgraph cluster_agent192 {
+		label = agent192;
+		variable796 [style="filled"];
+	}
+	subgraph cluster_agent193 {
+		label = agent193;
+		variable797 [style="filled"];
+	}
+	subgraph cluster_agent194 {
+		label = agent194;
+		variable798 [style="filled"];
+	}
+	subgraph cluster_agent195 {
+		label = agent195;
+		variable799 [style="filled"];
+	}
+	subgraph cluster_agent196 {
+		label = agent196;
+		variable800 [style="filled"];
+	}
+	subgraph cluster_agent197 {
+		label = agent197;
+		variable801 [style="filled"];
+	}
+	subgraph cluster_agent198 {
+		label = agent198;
+		variable802 [style="filled"];
+	}
+	subgraph cluster_agent81 {
+		label = agent81;
+		variable359 [style="filled"];
+	}
+	subgraph cluster_agent199 {
+		label = agent199;
+		variable879 [style="filled"];
+	}
+	subgraph cluster_agent82 {
+		label = agent82;
+		variable360 [style="filled"];
+	}
+	subgraph cluster_agent80 {
+		label = agent80;
+		variable352 [style="filled"];
+	}
+	subgraph cluster_agent41 {
+		label = agent41;
+		variable275 [style="filled"];
+	}
+	subgraph cluster_agent126 {
+		label = agent126;
+		variable604 [style="filled"];
+	}
+	subgraph cluster_agent42 {
+		label = agent42;
+		variable276 [style="filled"];
+	}
+	subgraph cluster_agent127 {
+		label = agent127;
+		variable605 [style="filled"];
+	}
+	subgraph cluster_agent128 {
+		label = agent128;
+		variable606 [style="filled"];
+	}
+	subgraph cluster_agent40 {
+		label = agent40;
+		variable274 [style="filled"];
+	}
+	subgraph cluster_agent129 {
+		label = agent129;
+		variable607 [style="filled"];
+	}
+	subgraph cluster_agent45 {
+		label = agent45;
+		variable281 [style="filled"];
+	}
+	subgraph cluster_agent46 {
+		label = agent46;
+		variable282 [style="filled"];
+	}
+	subgraph cluster_agent43 {
+		label = agent43;
+		variable277 [style="filled"];
+	}
+	subgraph cluster_agent44 {
+		label = agent44;
+		variable278 [style="filled"];
+	}
+	subgraph cluster_agent49 {
+		label = agent49;
+		variable285 [style="filled"];
+	}
+	subgraph cluster_agent47 {
+		label = agent47;
+		variable283 [style="filled"];
+	}
+	subgraph cluster_agent48 {
+		label = agent48;
+		variable284 [style="filled"];
+	}
+	subgraph cluster_agent120 {
+		label = agent120;
+		variable598 [style="filled"];
+	}
+	subgraph cluster_agent121 {
+		label = agent121;
+		variable599 [style="filled"];
+	}
+	subgraph cluster_agent122 {
+		label = agent122;
+		variable600 [style="filled"];
+	}
+	subgraph cluster_agent123 {
+		label = agent123;
+		variable601 [style="filled"];
+	}
+	subgraph cluster_agent124 {
+		label = agent124;
+		variable602 [style="filled"];
+	}
+	subgraph cluster_agent125 {
+		label = agent125;
+		variable603 [style="filled"];
+	}
+	subgraph cluster_agent52 {
+		label = agent52;
+		variable288 [style="filled"];
+	}
+	subgraph cluster_agent137 {
+		label = agent137;
+		variable623 [style="filled"];
+	}
+	subgraph cluster_agent53 {
+		label = agent53;
+		variable289 [style="filled"];
+	}
+	subgraph cluster_agent138 {
+		label = agent138;
+		variable624 [style="filled"];
+	}
+	subgraph cluster_agent50 {
+		label = agent50;
+		variable286 [style="filled"];
+	}
+	subgraph cluster_agent139 {
+		label = agent139;
+		variable625 [style="filled"];
+	}
+	subgraph cluster_agent51 {
+		label = agent51;
+		variable287 [style="filled"];
+	}
+	subgraph cluster_agent56 {
+		label = agent56;
+		variable292 [style="filled"];
+	}
+	subgraph cluster_agent57 {
+		label = agent57;
+		variable303 [style="filled"];
+	}
+	subgraph cluster_agent54 {
+		label = agent54;
+		variable290 [style="filled"];
+	}
+	subgraph cluster_agent55 {
+		label = agent55;
+		variable291 [style="filled"];
+	}
+	subgraph cluster_agent58 {
+		label = agent58;
+		variable304 [style="filled"];
+	}
+	subgraph cluster_agent59 {
+		label = agent59;
+		variable305 [style="filled"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		variable14 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		variable13 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		variable16 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		variable15 [style="filled"];
+	}
+	subgraph cluster_agent6 {
+		label = agent6;
+		variable54 [style="filled"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		variable53 [style="filled"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		variable80 [style="filled"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		variable79 [style="filled"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		variable81 [style="filled"];
+	}
+	subgraph cluster_agent130 {
+		label = agent130;
+		variable608 [style="filled"];
+	}
+	subgraph cluster_agent131 {
+		label = agent131;
+		variable613 [style="filled"];
+	}
+	subgraph cluster_agent132 {
+		label = agent132;
+		variable614 [style="filled"];
+	}
+	subgraph cluster_agent133 {
+		label = agent133;
+		variable617 [style="filled"];
+	}
+	subgraph cluster_agent60 {
+		label = agent60;
+		variable306 [style="filled"];
+	}
+	subgraph cluster_agent134 {
+		label = agent134;
+		variable618 [style="filled"];
+	}
+	subgraph cluster_agent135 {
+		label = agent135;
+		variable621 [style="filled"];
+	}
+	subgraph cluster_agent136 {
+		label = agent136;
+		variable622 [style="filled"];
+	}
+	subgraph cluster_agent148 {
+		label = agent148;
+		variable636 [style="filled"];
+	}
+	subgraph cluster_agent20 {
+		label = agent20;
+		variable216 [style="filled"];
+	}
+	subgraph cluster_agent149 {
+		label = agent149;
+		variable645 [style="filled"];
+	}
+	subgraph cluster_agent23 {
+		label = agent23;
+		variable235 [style="filled"];
+	}
+	subgraph cluster_agent24 {
+		label = agent24;
+		variable236 [style="filled"];
+	}
+	subgraph cluster_agent21 {
+		label = agent21;
+		variable233 [style="filled"];
+	}
+	subgraph cluster_agent22 {
+		label = agent22;
+		variable234 [style="filled"];
+	}
+	subgraph cluster_agent27 {
+		label = agent27;
+		variable261 [style="filled"];
+	}
+	subgraph cluster_agent28 {
+		label = agent28;
+		variable262 [style="filled"];
+	}
+	subgraph cluster_agent25 {
+		label = agent25;
+		variable237 [style="filled"];
+	}
+	subgraph cluster_agent26 {
+		label = agent26;
+		variable238 [style="filled"];
+	}
+	subgraph cluster_agent29 {
+		label = agent29;
+		variable263 [style="filled"];
+	}
+	subgraph cluster_agent140 {
+		label = agent140;
+		variable626 [style="filled"];
+	}
+	subgraph cluster_agent141 {
+		label = agent141;
+		variable629 [style="filled"];
+	}
+	subgraph cluster_agent142 {
+		label = agent142;
+		variable630 [style="filled"];
+	}
+	subgraph cluster_agent143 {
+		label = agent143;
+		variable631 [style="filled"];
+	}
+	subgraph cluster_agent144 {
+		label = agent144;
+		variable632 [style="filled"];
+	}
+	subgraph cluster_agent145 {
+		label = agent145;
+		variable633 [style="filled"];
+	}
+	subgraph cluster_agent146 {
+		label = agent146;
+		variable634 [style="filled"];
+	}
+	subgraph cluster_agent147 {
+		label = agent147;
+		variable635 [style="filled"];
+	}
+	subgraph cluster_agent30 {
+		label = agent30;
+		variable264 [style="filled"];
+	}
+	subgraph cluster_agent159 {
+		label = agent159;
+		variable713 [style="filled"];
+	}
+	subgraph cluster_agent31 {
+		label = agent31;
+		variable265 [style="filled"];
+	}
+	subgraph cluster_agent34 {
+		label = agent34;
+		variable268 [style="filled"];
+	}
+	subgraph cluster_agent35 {
+		label = agent35;
+		variable269 [style="filled"];
+	}
+	subgraph cluster_agent32 {
+		label = agent32;
+		variable266 [style="filled"];
+	}
+	subgraph cluster_agent33 {
+		label = agent33;
+		variable267 [style="filled"];
+	}
+	subgraph cluster_agent38 {
+		label = agent38;
+		variable272 [style="filled"];
+	}
+	subgraph cluster_agent39 {
+		label = agent39;
+		variable273 [style="filled"];
+	}
+	subgraph cluster_agent36 {
+		label = agent36;
+		variable270 [style="filled"];
+	}
+	subgraph cluster_agent37 {
+		label = agent37;
+		variable271 [style="filled"];
+	}
+	subgraph cluster_agent150 {
+		label = agent150;
+		variable646 [style="filled"];
+	}
+	subgraph cluster_agent151 {
+		label = agent151;
+		variable651 [style="filled"];
+	}
+	subgraph cluster_agent152 {
+		label = agent152;
+		variable652 [style="filled"];
+	}
+	subgraph cluster_agent153 {
+		label = agent153;
+		variable661 [style="filled"];
+	}
+	subgraph cluster_agent154 {
+		label = agent154;
+		variable662 [style="filled"];
+	}
+	subgraph cluster_agent155 {
+		label = agent155;
+		variable663 [style="filled"];
+	}
+	subgraph cluster_agent156 {
+		label = agent156;
+		variable664 [style="filled"];
+	}
+	subgraph cluster_agent157 {
+		label = agent157;
+		variable665 [style="filled"];
+	}
+	subgraph cluster_agent158 {
+		label = agent158;
+		variable666 [style="filled"];
+	}
+	subgraph cluster_agent200 {
+		label = agent200;
+		variable880 [style="filled"];
+	}
+	subgraph cluster_agent12 {
+		label = agent12;
+		variable84 [style="filled"];
+	}
+	subgraph cluster_agent13 {
+		label = agent13;
+		variable85 [style="filled"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		variable82 [style="filled"];
+	}
+	subgraph cluster_agent11 {
+		label = agent11;
+		variable83 [style="filled"];
+	}
+	subgraph cluster_agent16 {
+		label = agent16;
+		variable144 [style="filled"];
+	}
+	subgraph cluster_agent17 {
+		label = agent17;
+		variable145 [style="filled"];
+	}
+	subgraph cluster_agent14 {
+		label = agent14;
+		variable86 [style="filled"];
+	}
+	subgraph cluster_agent15 {
+		label = agent15;
+		variable143 [style="filled"];
+	}
+	subgraph cluster_agent18 {
+		label = agent18;
+		variable146 [style="filled"];
+	}
+	subgraph cluster_agent19 {
+		label = agent19;
+		variable215 [style="filled"];
+	}
+	subgraph cluster_agent104 {
+		label = agent104;
+		variable580 [style="filled"];
+	}
+	subgraph cluster_agent105 {
+		label = agent105;
+		variable583 [style="filled"];
+	}
+	subgraph cluster_agent106 {
+		label = agent106;
+		variable584 [style="filled"];
+	}
+	subgraph cluster_agent107 {
+		label = agent107;
+		variable585 [style="filled"];
+	}
+	subgraph cluster_agent108 {
+		label = agent108;
+		variable586 [style="filled"];
+	}
+	subgraph cluster_agent109 {
+		label = agent109;
+		variable587 [style="filled"];
+	}
+	subgraph cluster_agent100 {
+		label = agent100;
+		variable566 [style="filled"];
+	}
+	subgraph cluster_agent101 {
+		label = agent101;
+		variable577 [style="filled"];
+	}
+	subgraph cluster_agent102 {
+		label = agent102;
+		variable578 [style="filled"];
+	}
+	subgraph cluster_agent103 {
+		label = agent103;
+		variable579 [style="filled"];
+	}
+	subgraph cluster_agent115 {
+		label = agent115;
+		variable593 [style="filled"];
+	}
+	subgraph cluster_agent116 {
+		label = agent116;
+		variable594 [style="filled"];
+	}
+	subgraph cluster_agent117 {
+		label = agent117;
+		variable595 [style="filled"];
+	}
+	subgraph cluster_agent118 {
+		label = agent118;
+		variable596 [style="filled"];
+	}
+	subgraph cluster_agent119 {
+		label = agent119;
+		variable597 [style="filled"];
+	}
+	subgraph cluster_agent110 {
+		label = agent110;
+		variable588 [style="filled"];
+	}
+	subgraph cluster_agent111 {
+		label = agent111;
+		variable589 [style="filled"];
+	}
+	subgraph cluster_agent112 {
+		label = agent112;
+		variable590 [style="filled"];
+	}
+	subgraph cluster_agent113 {
+		label = agent113;
+		variable591 [style="filled"];
+	}
+	subgraph cluster_agent114 {
+		label = agent114;
+		variable592 [style="filled"];
+	}
+
+
+	variable14 -- variable13;
+	variable326 -- variable216;
+	variable326 -- variable215;
+	variable326 -- variable325;
+	variable326 -- variable263;
+	variable326 -- variable264;
+	variable325 -- variable216;
+	variable325 -- variable215;
+	variable325 -- variable263;
+	variable325 -- variable264;
+	variable324 -- variable13;
+	variable324 -- variable14;
+	variable324 -- variable323;
+	variable324 -- variable15;
+	variable324 -- variable16;
+	variable324 -- variable322;
+	variable324 -- variable321;
+	variable566 -- variable565;
+	variable566 -- variable559;
+	variable566 -- variable560;
+	variable566 -- variable330;
+	variable323 -- variable13;
+	variable323 -- variable14;
+	variable323 -- variable15;
+	variable323 -- variable16;
+	variable323 -- variable322;
+	variable323 -- variable321;
+	variable565 -- variable559;
+	variable565 -- variable560;
+	variable328 -- variable216;
+	variable328 -- variable326;
+	variable328 -- variable215;
+	variable328 -- variable325;
+	variable328 -- variable327;
+	variable328 -- variable263;
+	variable328 -- variable264;
+	variable327 -- variable216;
+	variable327 -- variable326;
+	variable327 -- variable215;
+	variable327 -- variable325;
+	variable327 -- variable263;
+	variable327 -- variable264;
+	variable560 -- variable268;
+	variable560 -- variable559;
+	variable560 -- variable267;
+	variable560 -- variable266;
+	variable560 -- variable265;
+	variable322 -- variable13;
+	variable322 -- variable14;
+	variable322 -- variable15;
+	variable322 -- variable16;
+	variable322 -- variable321;
+	variable321 -- variable13;
+	variable321 -- variable14;
+	variable321 -- variable15;
+	variable321 -- variable16;
+	variable562 -- variable349;
+	variable562 -- variable350;
+	variable562 -- variable234;
+	variable562 -- variable233;
+	variable562 -- variable561;
+	variable561 -- variable349;
+	variable561 -- variable350;
+	variable561 -- variable234;
+	variable561 -- variable233;
+	variable309 -- variable238;
+	variable309 -- variable304;
+	variable309 -- variable237;
+	variable309 -- variable303;
+	variable309 -- variable306;
+	variable309 -- variable305;
+	variable309 -- variable285;
+	variable309 -- variable286;
+	variable557 -- variable13;
+	variable557 -- variable14;
+	variable557 -- variable324;
+	variable557 -- variable323;
+	variable557 -- variable15;
+	variable557 -- variable16;
+	variable557 -- variable322;
+	variable557 -- variable321;
+	variable799 -- variable798;
+	variable799 -- variable797;
+	variable799 -- variable768;
+	variable799 -- variable767;
+	variable556 -- variable270;
+	variable556 -- variable269;
+	variable556 -- variable555;
+	variable556 -- variable274;
+	variable556 -- variable273;
+	variable556 -- variable272;
+	variable556 -- variable271;
+	variable556 -- variable278;
+	variable556 -- variable277;
+	variable556 -- variable276;
+	variable556 -- variable275;
+	variable798 -- variable797;
+	variable798 -- variable796;
+	variable798 -- variable768;
+	variable798 -- variable795;
+	variable555 -- variable270;
+	variable555 -- variable269;
+	variable555 -- variable274;
+	variable555 -- variable273;
+	variable555 -- variable272;
+	variable555 -- variable271;
+	variable555 -- variable278;
+	variable555 -- variable277;
+	variable555 -- variable276;
+	variable555 -- variable275;
+	variable797 -- variable796;
+	variable797 -- variable795;
+	variable796 -- variable795;
+	variable796 -- variable794;
+	variable796 -- variable793;
+	variable559 -- variable268;
+	variable559 -- variable267;
+	variable559 -- variable266;
+	variable559 -- variable265;
+	variable558 -- variable13;
+	variable558 -- variable14;
+	variable558 -- variable557;
+	variable558 -- variable324;
+	variable558 -- variable323;
+	variable558 -- variable15;
+	variable558 -- variable16;
+	variable558 -- variable322;
+	variable558 -- variable321;
+	variable791 -- variable767;
+	variable791 -- variable789;
+	variable791 -- variable790;
+	variable790 -- variable788;
+	variable790 -- variable787;
+	variable790 -- variable768;
+	variable790 -- variable767;
+	variable790 -- variable789;
+	variable790 -- variable289;
+	variable15 -- variable13;
+	variable15 -- variable14;
+	variable16 -- variable13;
+	variable16 -- variable14;
+	variable16 -- variable15;
+	variable795 -- variable767;
+	variable795 -- variable794;
+	variable795 -- variable793;
+	variable310 -- variable238;
+	variable310 -- variable304;
+	variable310 -- variable237;
+	variable310 -- variable303;
+	variable310 -- variable306;
+	variable310 -- variable305;
+	variable310 -- variable285;
+	variable310 -- variable309;
+	variable310 -- variable286;
+	variable794 -- variable767;
+	variable794 -- variable791;
+	variable794 -- variable793;
+	variable794 -- variable792;
+	variable793 -- variable768;
+	variable793 -- variable767;
+	variable793 -- variable791;
+	variable793 -- variable792;
+	variable792 -- variable768;
+	variable792 -- variable767;
+	variable792 -- variable789;
+	variable792 -- variable791;
+	variable792 -- variable790;
+	variable588 -- variable566;
+	variable588 -- variable565;
+	variable588 -- variable587;
+	variable588 -- variable586;
+	variable588 -- variable585;
+	variable587 -- variable566;
+	variable587 -- variable565;
+	variable587 -- variable586;
+	variable587 -- variable585;
+	variable349 -- variable238;
+	variable349 -- variable237;
+	variable349 -- variable234;
+	variable349 -- variable233;
+	variable580 -- variable579;
+	variable344 -- variable281;
+	variable344 -- variable284;
+	variable344 -- variable283;
+	variable344 -- variable282;
+	variable344 -- variable146;
+	variable344 -- variable278;
+	variable344 -- variable145;
+	variable344 -- variable277;
+	variable344 -- variable343;
+	variable344 -- variable144;
+	variable344 -- variable342;
+	variable344 -- variable143;
+	variable344 -- variable341;
+	variable586 -- variable566;
+	variable586 -- variable268;
+	variable586 -- variable565;
+	variable586 -- variable266;
+	variable586 -- variable585;
+	variable343 -- variable281;
+	variable343 -- variable284;
+	variable343 -- variable283;
+	variable343 -- variable282;
+	variable343 -- variable146;
+	variable343 -- variable278;
+	variable343 -- variable145;
+	variable343 -- variable277;
+	variable343 -- variable144;
+	variable343 -- variable342;
+	variable343 -- variable143;
+	variable343 -- variable341;
+	variable585 -- variable566;
+	variable585 -- variable565;
+	variable342 -- variable281;
+	variable342 -- variable284;
+	variable342 -- variable283;
+	variable342 -- variable282;
+	variable342 -- variable146;
+	variable342 -- variable278;
+	variable342 -- variable145;
+	variable342 -- variable277;
+	variable342 -- variable144;
+	variable342 -- variable143;
+	variable342 -- variable341;
+	variable584 -- variable270;
+	variable584 -- variable556;
+	variable584 -- variable269;
+	variable584 -- variable555;
+	variable584 -- variable274;
+	variable584 -- variable273;
+	variable584 -- variable284;
+	variable584 -- variable272;
+	variable584 -- variable271;
+	variable584 -- variable278;
+	variable584 -- variable277;
+	variable584 -- variable276;
+	variable584 -- variable275;
+	variable584 -- variable583;
+	variable341 -- variable281;
+	variable341 -- variable284;
+	variable341 -- variable283;
+	variable341 -- variable282;
+	variable341 -- variable146;
+	variable341 -- variable278;
+	variable341 -- variable145;
+	variable341 -- variable277;
+	variable341 -- variable144;
+	variable341 -- variable143;
+	variable583 -- variable270;
+	variable583 -- variable556;
+	variable583 -- variable269;
+	variable583 -- variable555;
+	variable583 -- variable274;
+	variable583 -- variable273;
+	variable583 -- variable272;
+	variable583 -- variable271;
+	variable583 -- variable278;
+	variable583 -- variable277;
+	variable583 -- variable276;
+	variable583 -- variable275;
+	variable216 -- variable215;
+	variable578 -- variable577;
+	variable578 -- variable349;
+	variable578 -- variable350;
+	variable578 -- variable234;
+	variable578 -- variable233;
+	variable578 -- variable562;
+	variable578 -- variable561;
+	variable577 -- variable349;
+	variable577 -- variable350;
+	variable577 -- variable234;
+	variable577 -- variable233;
+	variable577 -- variable562;
+	variable577 -- variable561;
+	variable330 -- variable329;
+	variable518 -- variable309;
+	variable518 -- variable238;
+	variable518 -- variable304;
+	variable518 -- variable237;
+	variable518 -- variable303;
+	variable518 -- variable517;
+	variable518 -- variable306;
+	variable518 -- variable305;
+	variable518 -- variable349;
+	variable518 -- variable285;
+	variable518 -- variable350;
+	variable518 -- variable310;
+	variable518 -- variable286;
+	variable645 -- variable566;
+	variable645 -- variable268;
+	variable645 -- variable267;
+	variable645 -- variable266;
+	variable645 -- variable265;
+	variable766 -- variable765;
+	variable766 -- variable748;
+	variable766 -- variable747;
+	variable766 -- variable614;
+	variable766 -- variable613;
+	variable765 -- variable748;
+	variable765 -- variable747;
+	variable765 -- variable614;
+	variable765 -- variable613;
+	variable764 -- variable216;
+	variable764 -- variable326;
+	variable764 -- variable744;
+	variable764 -- variable325;
+	variable764 -- variable743;
+	variable764 -- variable763;
+	variable764 -- variable328;
+	variable764 -- variable327;
+	variable764 -- variable263;
+	variable764 -- variable264;
+	variable763 -- variable326;
+	variable763 -- variable744;
+	variable763 -- variable215;
+	variable763 -- variable325;
+	variable763 -- variable743;
+	variable763 -- variable328;
+	variable763 -- variable327;
+	variable763 -- variable263;
+	variable763 -- variable264;
+	variable768 -- variable13;
+	variable768 -- variable14;
+	variable768 -- variable600;
+	variable768 -- variable666;
+	variable768 -- variable324;
+	variable768 -- variable665;
+	variable768 -- variable323;
+	variable768 -- variable565;
+	variable768 -- variable747;
+	variable768 -- variable746;
+	variable768 -- variable767;
+	variable768 -- variable322;
+	variable768 -- variable586;
+	variable768 -- variable321;
+	variable768 -- variable290;
+	variable768 -- variable629;
+	variable768 -- variable557;
+	variable768 -- variable599;
+	variable768 -- variable598;
+	variable768 -- variable631;
+	variable768 -- variable614;
+	variable768 -- variable558;
+	variable768 -- variable613;
+	variable768 -- variable593;
+	variable768 -- variable15;
+	variable768 -- variable16;
+	variable768 -- variable597;
+	variable768 -- variable630;
+	variable768 -- variable594;
+	variable646 -- variable645;
+	variable646 -- variable268;
+	variable646 -- variable267;
+	variable646 -- variable266;
+	variable646 -- variable265;
+	variable767 -- variable13;
+	variable767 -- variable14;
+	variable767 -- variable600;
+	variable767 -- variable666;
+	variable767 -- variable765;
+	variable767 -- variable324;
+	variable767 -- variable665;
+	variable767 -- variable323;
+	variable767 -- variable565;
+	variable767 -- variable587;
+	variable767 -- variable747;
+	variable767 -- variable746;
+	variable767 -- variable745;
+	variable767 -- variable322;
+	variable767 -- variable586;
+	variable767 -- variable321;
+	variable767 -- variable290;
+	variable767 -- variable557;
+	variable767 -- variable634;
+	variable767 -- variable633;
+	variable767 -- variable599;
+	variable767 -- variable632;
+	variable767 -- variable631;
+	variable767 -- variable614;
+	variable767 -- variable636;
+	variable767 -- variable558;
+	variable767 -- variable593;
+	variable767 -- variable15;
+	variable767 -- variable591;
+	variable767 -- variable16;
+	variable767 -- variable597;
+	variable767 -- variable594;
+	variable520 -- variable519;
+	variable880 -- variable879;
+	variable880 -- variable80;
+	variable629 -- variable269;
+	variable629 -- variable270;
+	variable629 -- variable292;
+	variable629 -- variable291;
+	variable629 -- variable272;
+	variable629 -- variable271;
+	variable634 -- variable633;
+	variable634 -- variable329;
+	variable634 -- variable351;
+	variable634 -- variable592;
+	variable634 -- variable591;
+	variable634 -- variable330;
+	variable634 -- variable352;
+	variable633 -- variable329;
+	variable633 -- variable351;
+	variable633 -- variable592;
+	variable633 -- variable591;
+	variable633 -- variable330;
+	variable633 -- variable352;
+	variable632 -- variable631;
+	variable632 -- variable593;
+	variable632 -- variable629;
+	variable632 -- variable630;
+	variable632 -- variable594;
+	variable631 -- variable323;
+	variable631 -- variable593;
+	variable631 -- variable629;
+	variable631 -- variable630;
+	variable631 -- variable321;
+	variable631 -- variable594;
+	variable517 -- variable309;
+	variable517 -- variable238;
+	variable517 -- variable304;
+	variable517 -- variable237;
+	variable517 -- variable303;
+	variable517 -- variable306;
+	variable517 -- variable305;
+	variable517 -- variable349;
+	variable517 -- variable285;
+	variable517 -- variable350;
+	variable517 -- variable310;
+	variable517 -- variable286;
+	variable636 -- variable601;
+	variable636 -- variable634;
+	variable636 -- variable633;
+	variable636 -- variable566;
+	variable636 -- variable565;
+	variable636 -- variable559;
+	variable636 -- variable602;
+	variable636 -- variable635;
+	variable636 -- variable560;
+	variable635 -- variable601;
+	variable635 -- variable634;
+	variable635 -- variable633;
+	variable635 -- variable566;
+	variable635 -- variable565;
+	variable635 -- variable559;
+	variable635 -- variable602;
+	variable635 -- variable560;
+	variable635 -- variable330;
+	variable630 -- variable269;
+	variable630 -- variable270;
+	variable630 -- variable292;
+	variable630 -- variable291;
+	variable630 -- variable272;
+	variable630 -- variable629;
+	variable630 -- variable271;
+	variable304 -- variable238;
+	variable304 -- variable237;
+	variable304 -- variable303;
+	variable304 -- variable285;
+	variable304 -- variable286;
+	variable788 -- variable608;
+	variable788 -- variable607;
+	variable788 -- variable556;
+	variable788 -- variable721;
+	variable788 -- variable787;
+	variable788 -- variable555;
+	variable788 -- variable768;
+	variable788 -- variable723;
+	variable788 -- variable145;
+	variable788 -- variable143;
+	variable303 -- variable238;
+	variable303 -- variable237;
+	variable303 -- variable285;
+	variable303 -- variable286;
+	variable666 -- variable13;
+	variable666 -- variable14;
+	variable666 -- variable557;
+	variable666 -- variable600;
+	variable666 -- variable324;
+	variable666 -- variable599;
+	variable666 -- variable665;
+	variable666 -- variable323;
+	variable666 -- variable598;
+	variable666 -- variable614;
+	variable666 -- variable558;
+	variable666 -- variable613;
+	variable666 -- variable593;
+	variable666 -- variable15;
+	variable666 -- variable16;
+	variable666 -- variable322;
+	variable666 -- variable597;
+	variable666 -- variable321;
+	variable666 -- variable594;
+	variable787 -- variable608;
+	variable787 -- variable718;
+	variable787 -- variable607;
+	variable787 -- variable556;
+	variable787 -- variable269;
+	variable787 -- variable555;
+	variable787 -- variable720;
+	variable787 -- variable274;
+	variable787 -- variable271;
+	variable787 -- variable276;
+	variable665 -- variable13;
+	variable665 -- variable14;
+	variable665 -- variable557;
+	variable665 -- variable600;
+	variable665 -- variable324;
+	variable665 -- variable599;
+	variable665 -- variable323;
+	variable665 -- variable598;
+	variable665 -- variable614;
+	variable665 -- variable558;
+	variable665 -- variable613;
+	variable665 -- variable593;
+	variable665 -- variable15;
+	variable665 -- variable16;
+	variable665 -- variable322;
+	variable665 -- variable597;
+	variable665 -- variable321;
+	variable665 -- variable594;
+	variable786 -- variable557;
+	variable786 -- variable666;
+	variable786 -- variable665;
+	variable786 -- variable598;
+	variable786 -- variable785;
+	variable786 -- variable614;
+	variable786 -- variable558;
+	variable786 -- variable613;
+	variable786 -- variable767;
+	variable786 -- variable593;
+	variable786 -- variable597;
+	variable786 -- variable594;
+	variable664 -- variable663;
+	variable785 -- variable557;
+	variable785 -- variable666;
+	variable785 -- variable665;
+	variable785 -- variable598;
+	variable785 -- variable614;
+	variable785 -- variable768;
+	variable785 -- variable558;
+	variable785 -- variable613;
+	variable785 -- variable767;
+	variable785 -- variable593;
+	variable785 -- variable597;
+	variable785 -- variable594;
+	variable306 -- variable238;
+	variable306 -- variable304;
+	variable306 -- variable237;
+	variable306 -- variable303;
+	variable306 -- variable305;
+	variable306 -- variable285;
+	variable306 -- variable286;
+	variable305 -- variable238;
+	variable305 -- variable304;
+	variable305 -- variable237;
+	variable305 -- variable303;
+	variable305 -- variable285;
+	variable305 -- variable286;
+	variable789 -- variable788;
+	variable789 -- variable787;
+	variable789 -- variable768;
+	variable662 -- variable645;
+	variable662 -- variable646;
+	variable662 -- variable661;
+	variable661 -- variable645;
+	variable661 -- variable646;
+	variable652 -- variable651;
+	variable281 -- variable146;
+	variable281 -- variable278;
+	variable281 -- variable145;
+	variable281 -- variable277;
+	variable281 -- variable144;
+	variable281 -- variable143;
+	variable719 -- variable718;
+	variable719 -- variable717;
+	variable719 -- variable269;
+	variable719 -- variable146;
+	variable719 -- variable145;
+	variable719 -- variable144;
+	variable719 -- variable584;
+	variable719 -- variable143;
+	variable719 -- variable583;
+	variable719 -- variable270;
+	variable719 -- variable607;
+	variable719 -- variable556;
+	variable719 -- variable555;
+	variable719 -- variable714;
+	variable719 -- variable713;
+	variable719 -- variable274;
+	variable719 -- variable273;
+	variable719 -- variable272;
+	variable719 -- variable271;
+	variable719 -- variable278;
+	variable719 -- variable277;
+	variable719 -- variable276;
+	variable719 -- variable275;
+	variable718 -- variable717;
+	variable718 -- variable269;
+	variable718 -- variable146;
+	variable718 -- variable145;
+	variable718 -- variable144;
+	variable718 -- variable584;
+	variable718 -- variable143;
+	variable718 -- variable583;
+	variable718 -- variable270;
+	variable718 -- variable608;
+	variable718 -- variable607;
+	variable718 -- variable556;
+	variable718 -- variable555;
+	variable718 -- variable714;
+	variable718 -- variable713;
+	variable718 -- variable274;
+	variable718 -- variable273;
+	variable718 -- variable272;
+	variable718 -- variable271;
+	variable718 -- variable278;
+	variable718 -- variable277;
+	variable718 -- variable276;
+	variable718 -- variable275;
+	variable717 -- variable269;
+	variable717 -- variable146;
+	variable717 -- variable145;
+	variable717 -- variable144;
+	variable717 -- variable584;
+	variable717 -- variable143;
+	variable717 -- variable583;
+	variable717 -- variable270;
+	variable717 -- variable607;
+	variable717 -- variable556;
+	variable717 -- variable555;
+	variable717 -- variable714;
+	variable717 -- variable713;
+	variable717 -- variable274;
+	variable717 -- variable273;
+	variable717 -- variable272;
+	variable717 -- variable271;
+	variable717 -- variable278;
+	variable717 -- variable277;
+	variable717 -- variable276;
+	variable717 -- variable275;
+	variable601 -- variable566;
+	variable601 -- variable565;
+	variable601 -- variable559;
+	variable601 -- variable560;
+	variable601 -- variable596;
+	variable601 -- variable595;
+	variable601 -- variable330;
+	variable722 -- variable281;
+	variable722 -- variable719;
+	variable722 -- variable718;
+	variable722 -- variable717;
+	variable722 -- variable721;
+	variable722 -- variable720;
+	variable722 -- variable284;
+	variable722 -- variable283;
+	variable722 -- variable282;
+	variable722 -- variable146;
+	variable722 -- variable344;
+	variable722 -- variable145;
+	variable722 -- variable343;
+	variable722 -- variable144;
+	variable722 -- variable342;
+	variable722 -- variable143;
+	variable722 -- variable341;
+	variable722 -- variable714;
+	variable722 -- variable713;
+	variable722 -- variable274;
+	variable722 -- variable273;
+	variable722 -- variable278;
+	variable722 -- variable277;
+	variable722 -- variable276;
+	variable722 -- variable275;
+	variable600 -- variable13;
+	variable600 -- variable14;
+	variable600 -- variable557;
+	variable600 -- variable324;
+	variable600 -- variable599;
+	variable600 -- variable323;
+	variable600 -- variable558;
+	variable600 -- variable15;
+	variable600 -- variable16;
+	variable600 -- variable322;
+	variable600 -- variable321;
+	variable721 -- variable281;
+	variable721 -- variable719;
+	variable721 -- variable718;
+	variable721 -- variable717;
+	variable721 -- variable720;
+	variable721 -- variable284;
+	variable721 -- variable283;
+	variable721 -- variable282;
+	variable721 -- variable146;
+	variable721 -- variable344;
+	variable721 -- variable145;
+	variable721 -- variable343;
+	variable721 -- variable144;
+	variable721 -- variable342;
+	variable721 -- variable143;
+	variable721 -- variable341;
+	variable721 -- variable714;
+	variable721 -- variable713;
+	variable721 -- variable274;
+	variable721 -- variable273;
+	variable721 -- variable278;
+	variable721 -- variable277;
+	variable721 -- variable276;
+	variable721 -- variable275;
+	variable720 -- variable719;
+	variable720 -- variable718;
+	variable720 -- variable717;
+	variable720 -- variable269;
+	variable720 -- variable146;
+	variable720 -- variable145;
+	variable720 -- variable144;
+	variable720 -- variable584;
+	variable720 -- variable143;
+	variable720 -- variable583;
+	variable720 -- variable270;
+	variable720 -- variable608;
+	variable720 -- variable607;
+	variable720 -- variable556;
+	variable720 -- variable555;
+	variable720 -- variable714;
+	variable720 -- variable713;
+	variable720 -- variable274;
+	variable720 -- variable273;
+	variable720 -- variable272;
+	variable720 -- variable271;
+	variable720 -- variable278;
+	variable720 -- variable277;
+	variable720 -- variable276;
+	variable720 -- variable275;
+	variable605 -- variable472;
+	variable605 -- variable471;
+	variable605 -- variable288;
+	variable605 -- variable562;
+	variable605 -- variable561;
+	variable604 -- variable268;
+	variable604 -- variable559;
+	variable604 -- variable603;
+	variable604 -- variable560;
+	variable604 -- variable262;
+	variable604 -- variable267;
+	variable604 -- variable266;
+	variable604 -- variable265;
+	variable603 -- variable268;
+	variable603 -- variable559;
+	variable603 -- variable560;
+	variable603 -- variable267;
+	variable603 -- variable266;
+	variable603 -- variable265;
+	variable724 -- variable281;
+	variable724 -- variable719;
+	variable724 -- variable718;
+	variable724 -- variable717;
+	variable724 -- variable722;
+	variable724 -- variable721;
+	variable724 -- variable720;
+	variable724 -- variable723;
+	variable724 -- variable284;
+	variable724 -- variable283;
+	variable724 -- variable282;
+	variable724 -- variable146;
+	variable724 -- variable344;
+	variable724 -- variable145;
+	variable724 -- variable343;
+	variable724 -- variable144;
+	variable724 -- variable342;
+	variable724 -- variable143;
+	variable724 -- variable341;
+	variable724 -- variable714;
+	variable724 -- variable713;
+	variable724 -- variable274;
+	variable724 -- variable273;
+	variable724 -- variable278;
+	variable724 -- variable277;
+	variable724 -- variable276;
+	variable724 -- variable275;
+	variable602 -- variable601;
+	variable602 -- variable566;
+	variable602 -- variable565;
+	variable602 -- variable559;
+	variable602 -- variable560;
+	variable602 -- variable596;
+	variable602 -- variable595;
+	variable723 -- variable281;
+	variable723 -- variable719;
+	variable723 -- variable718;
+	variable723 -- variable717;
+	variable723 -- variable722;
+	variable723 -- variable721;
+	variable723 -- variable720;
+	variable723 -- variable284;
+	variable723 -- variable283;
+	variable723 -- variable282;
+	variable723 -- variable146;
+	variable723 -- variable344;
+	variable723 -- variable145;
+	variable723 -- variable343;
+	variable723 -- variable144;
+	variable723 -- variable342;
+	variable723 -- variable143;
+	variable723 -- variable341;
+	variable723 -- variable714;
+	variable723 -- variable713;
+	variable723 -- variable274;
+	variable723 -- variable273;
+	variable723 -- variable278;
+	variable723 -- variable277;
+	variable723 -- variable276;
+	variable723 -- variable275;
+	variable285 -- variable238;
+	variable285 -- variable237;
+	variable284 -- variable281;
+	variable284 -- variable283;
+	variable284 -- variable282;
+	variable284 -- variable146;
+	variable284 -- variable278;
+	variable284 -- variable145;
+	variable284 -- variable277;
+	variable284 -- variable144;
+	variable284 -- variable143;
+	variable283 -- variable281;
+	variable283 -- variable282;
+	variable283 -- variable146;
+	variable283 -- variable278;
+	variable283 -- variable145;
+	variable283 -- variable277;
+	variable283 -- variable144;
+	variable283 -- variable143;
+	variable282 -- variable281;
+	variable282 -- variable146;
+	variable282 -- variable278;
+	variable282 -- variable145;
+	variable282 -- variable277;
+	variable282 -- variable144;
+	variable282 -- variable143;
+	variable288 -- variable287;
+	variable286 -- variable238;
+	variable286 -- variable237;
+	variable286 -- variable285;
+	variable270 -- variable269;
+	variable714 -- variable281;
+	variable714 -- variable269;
+	variable714 -- variable284;
+	variable714 -- variable283;
+	variable714 -- variable282;
+	variable714 -- variable146;
+	variable714 -- variable344;
+	variable714 -- variable145;
+	variable714 -- variable343;
+	variable714 -- variable144;
+	variable714 -- variable342;
+	variable714 -- variable584;
+	variable714 -- variable143;
+	variable714 -- variable341;
+	variable714 -- variable583;
+	variable714 -- variable270;
+	variable714 -- variable607;
+	variable714 -- variable556;
+	variable714 -- variable555;
+	variable714 -- variable713;
+	variable714 -- variable274;
+	variable714 -- variable273;
+	variable714 -- variable272;
+	variable714 -- variable271;
+	variable714 -- variable278;
+	variable714 -- variable277;
+	variable714 -- variable276;
+	variable714 -- variable275;
+	variable713 -- variable281;
+	variable713 -- variable269;
+	variable713 -- variable284;
+	variable713 -- variable283;
+	variable713 -- variable282;
+	variable713 -- variable146;
+	variable713 -- variable344;
+	variable713 -- variable145;
+	variable713 -- variable343;
+	variable713 -- variable144;
+	variable713 -- variable342;
+	variable713 -- variable584;
+	variable713 -- variable143;
+	variable713 -- variable341;
+	variable713 -- variable583;
+	variable713 -- variable270;
+	variable713 -- variable556;
+	variable713 -- variable555;
+	variable713 -- variable274;
+	variable713 -- variable273;
+	variable713 -- variable272;
+	variable713 -- variable271;
+	variable713 -- variable278;
+	variable713 -- variable277;
+	variable713 -- variable276;
+	variable713 -- variable275;
+	variable274 -- variable269;
+	variable274 -- variable146;
+	variable274 -- variable145;
+	variable274 -- variable144;
+	variable274 -- variable143;
+	variable274 -- variable270;
+	variable274 -- variable273;
+	variable274 -- variable272;
+	variable274 -- variable271;
+	variable273 -- variable269;
+	variable273 -- variable146;
+	variable273 -- variable145;
+	variable273 -- variable144;
+	variable273 -- variable143;
+	variable273 -- variable270;
+	variable273 -- variable272;
+	variable273 -- variable271;
+	variable272 -- variable269;
+	variable272 -- variable270;
+	variable272 -- variable271;
+	variable271 -- variable269;
+	variable271 -- variable270;
+	variable278 -- variable269;
+	variable278 -- variable146;
+	variable278 -- variable145;
+	variable278 -- variable144;
+	variable278 -- variable143;
+	variable278 -- variable270;
+	variable278 -- variable274;
+	variable278 -- variable273;
+	variable278 -- variable272;
+	variable278 -- variable271;
+	variable278 -- variable277;
+	variable278 -- variable276;
+	variable278 -- variable275;
+	variable277 -- variable269;
+	variable277 -- variable146;
+	variable277 -- variable145;
+	variable277 -- variable144;
+	variable277 -- variable143;
+	variable277 -- variable270;
+	variable277 -- variable274;
+	variable277 -- variable273;
+	variable277 -- variable272;
+	variable277 -- variable271;
+	variable277 -- variable276;
+	variable277 -- variable275;
+	variable276 -- variable269;
+	variable276 -- variable146;
+	variable276 -- variable145;
+	variable276 -- variable144;
+	variable276 -- variable143;
+	variable276 -- variable270;
+	variable276 -- variable274;
+	variable276 -- variable273;
+	variable276 -- variable272;
+	variable276 -- variable271;
+	variable276 -- variable275;
+	variable275 -- variable269;
+	variable275 -- variable146;
+	variable275 -- variable145;
+	variable275 -- variable144;
+	variable275 -- variable143;
+	variable275 -- variable270;
+	variable275 -- variable274;
+	variable275 -- variable273;
+	variable275 -- variable272;
+	variable275 -- variable271;
+	variable618 -- variable303;
+	variable618 -- variable589;
+	variable618 -- variable305;
+	variable618 -- variable590;
+	variable618 -- variable617;
+	variable618 -- variable596;
+	variable618 -- variable595;
+	variable617 -- variable589;
+	variable617 -- variable590;
+	variable617 -- variable596;
+	variable617 -- variable595;
+	variable744 -- variable326;
+	variable744 -- variable325;
+	variable744 -- variable743;
+	variable744 -- variable664;
+	variable744 -- variable328;
+	variable744 -- variable327;
+	variable744 -- variable263;
+	variable744 -- variable663;
+	variable744 -- variable264;
+	variable622 -- variable579;
+	variable622 -- variable578;
+	variable622 -- variable577;
+	variable622 -- variable621;
+	variable622 -- variable349;
+	variable622 -- variable350;
+	variable622 -- variable592;
+	variable622 -- variable580;
+	variable622 -- variable591;
+	variable622 -- variable234;
+	variable622 -- variable233;
+	variable622 -- variable562;
+	variable622 -- variable561;
+	variable743 -- variable326;
+	variable743 -- variable325;
+	variable743 -- variable664;
+	variable743 -- variable328;
+	variable743 -- variable327;
+	variable743 -- variable263;
+	variable743 -- variable663;
+	variable743 -- variable264;
+	variable621 -- variable579;
+	variable621 -- variable578;
+	variable621 -- variable577;
+	variable621 -- variable349;
+	variable621 -- variable350;
+	variable621 -- variable592;
+	variable621 -- variable580;
+	variable621 -- variable591;
+	variable621 -- variable234;
+	variable621 -- variable233;
+	variable621 -- variable562;
+	variable621 -- variable561;
+	variable748 -- variable744;
+	variable748 -- variable743;
+	variable748 -- variable664;
+	variable748 -- variable747;
+	variable748 -- variable614;
+	variable748 -- variable613;
+	variable748 -- variable663;
+	variable626 -- variable579;
+	variable626 -- variable623;
+	variable626 -- variable622;
+	variable626 -- variable621;
+	variable626 -- variable625;
+	variable626 -- variable624;
+	variable626 -- variable580;
+	variable747 -- variable744;
+	variable747 -- variable743;
+	variable747 -- variable664;
+	variable747 -- variable614;
+	variable747 -- variable613;
+	variable747 -- variable663;
+	variable625 -- variable579;
+	variable625 -- variable623;
+	variable625 -- variable622;
+	variable625 -- variable621;
+	variable625 -- variable624;
+	variable625 -- variable580;
+	variable746 -- variable600;
+	variable746 -- variable566;
+	variable746 -- variable588;
+	variable746 -- variable599;
+	variable746 -- variable565;
+	variable746 -- variable587;
+	variable746 -- variable745;
+	variable746 -- variable586;
+	variable746 -- variable585;
+	variable624 -- variable623;
+	variable745 -- variable600;
+	variable745 -- variable566;
+	variable745 -- variable588;
+	variable745 -- variable599;
+	variable745 -- variable565;
+	variable745 -- variable587;
+	variable745 -- variable586;
+	variable745 -- variable585;
+	variable292 -- variable269;
+	variable292 -- variable270;
+	variable292 -- variable291;
+	variable292 -- variable290;
+	variable292 -- variable272;
+	variable292 -- variable271;
+	variable292 -- variable289;
+	variable291 -- variable269;
+	variable291 -- variable270;
+	variable291 -- variable290;
+	variable291 -- variable272;
+	variable291 -- variable271;
+	variable291 -- variable289;
+	variable290 -- variable289;
+	variable608 -- variable270;
+	variable608 -- variable607;
+	variable608 -- variable556;
+	variable608 -- variable269;
+	variable608 -- variable555;
+	variable608 -- variable274;
+	variable608 -- variable272;
+	variable608 -- variable271;
+	variable608 -- variable276;
+	variable608 -- variable584;
+	variable608 -- variable583;
+	variable607 -- variable556;
+	variable607 -- variable555;
+	variable607 -- variable274;
+	variable607 -- variable273;
+	variable607 -- variable278;
+	variable607 -- variable276;
+	variable607 -- variable584;
+	variable607 -- variable275;
+	variable607 -- variable583;
+	variable606 -- variable605;
+	variable606 -- variable472;
+	variable606 -- variable471;
+	variable606 -- variable287;
+	variable606 -- variable562;
+	variable606 -- variable561;
+	variable614 -- variable557;
+	variable614 -- variable598;
+	variable614 -- variable558;
+	variable614 -- variable613;
+	variable614 -- variable593;
+	variable614 -- variable597;
+	variable614 -- variable594;
+	variable613 -- variable557;
+	variable613 -- variable598;
+	variable613 -- variable558;
+	variable613 -- variable593;
+	variable613 -- variable597;
+	variable613 -- variable594;
+	variable54 -- variable53;
+	variable802 -- variable799;
+	variable802 -- variable578;
+	variable802 -- variable622;
+	variable802 -- variable577;
+	variable802 -- variable621;
+	variable802 -- variable768;
+	variable802 -- variable801;
+	variable802 -- variable349;
+	variable802 -- variable767;
+	variable802 -- variable800;
+	variable802 -- variable350;
+	variable802 -- variable592;
+	variable802 -- variable591;
+	variable802 -- variable234;
+	variable802 -- variable233;
+	variable802 -- variable562;
+	variable802 -- variable561;
+	variable801 -- variable799;
+	variable801 -- variable578;
+	variable801 -- variable622;
+	variable801 -- variable577;
+	variable801 -- variable621;
+	variable801 -- variable349;
+	variable801 -- variable800;
+	variable801 -- variable350;
+	variable801 -- variable592;
+	variable801 -- variable591;
+	variable801 -- variable234;
+	variable801 -- variable233;
+	variable801 -- variable562;
+	variable801 -- variable561;
+	variable800 -- variable579;
+	variable800 -- variable799;
+	variable800 -- variable798;
+	variable800 -- variable797;
+	variable800 -- variable768;
+	variable800 -- variable767;
+	variable360 -- variable216;
+	variable360 -- variable359;
+	variable360 -- variable325;
+	variable360 -- variable327;
+	variable360 -- variable263;
+	variable366 -- variable216;
+	variable366 -- variable359;
+	variable366 -- variable215;
+	variable366 -- variable325;
+	variable366 -- variable327;
+	variable366 -- variable263;
+	variable366 -- variable360;
+	variable366 -- variable365;
+	variable365 -- variable326;
+	variable365 -- variable359;
+	variable365 -- variable328;
+	variable365 -- variable360;
+	variable238 -- variable237;
+	variable359 -- variable216;
+	variable359 -- variable215;
+	variable359 -- variable264;
+	variable236 -- variable235;
+	variable236 -- variable234;
+	variable236 -- variable233;
+	variable599 -- variable13;
+	variable599 -- variable14;
+	variable599 -- variable557;
+	variable599 -- variable324;
+	variable599 -- variable323;
+	variable599 -- variable558;
+	variable599 -- variable15;
+	variable599 -- variable16;
+	variable599 -- variable322;
+	variable599 -- variable321;
+	variable235 -- variable234;
+	variable235 -- variable233;
+	variable598 -- variable519;
+	variable598 -- variable557;
+	variable598 -- variable558;
+	variable598 -- variable593;
+	variable598 -- variable520;
+	variable598 -- variable597;
+	variable598 -- variable594;
+	variable351 -- variable236;
+	variable351 -- variable235;
+	variable351 -- variable329;
+	variable351 -- variable330;
+	variable472 -- variable471;
+	variable472 -- variable287;
+	variable593 -- variable557;
+	variable593 -- variable558;
+	variable350 -- variable238;
+	variable350 -- variable237;
+	variable350 -- variable349;
+	variable350 -- variable234;
+	variable350 -- variable233;
+	variable471 -- variable288;
+	variable592 -- variable578;
+	variable592 -- variable577;
+	variable592 -- variable329;
+	variable592 -- variable349;
+	variable592 -- variable351;
+	variable592 -- variable350;
+	variable592 -- variable591;
+	variable592 -- variable234;
+	variable592 -- variable233;
+	variable592 -- variable562;
+	variable592 -- variable330;
+	variable592 -- variable352;
+	variable592 -- variable561;
+	variable591 -- variable578;
+	variable591 -- variable577;
+	variable591 -- variable329;
+	variable591 -- variable349;
+	variable591 -- variable351;
+	variable591 -- variable350;
+	variable591 -- variable234;
+	variable591 -- variable233;
+	variable591 -- variable562;
+	variable591 -- variable330;
+	variable591 -- variable352;
+	variable591 -- variable561;
+	variable590 -- variable589;
+	variable234 -- variable233;
+	variable597 -- variable519;
+	variable597 -- variable557;
+	variable597 -- variable558;
+	variable597 -- variable593;
+	variable597 -- variable520;
+	variable597 -- variable594;
+	variable596 -- variable589;
+	variable596 -- variable590;
+	variable596 -- variable595;
+	variable595 -- variable589;
+	variable595 -- variable590;
+	variable352 -- variable236;
+	variable352 -- variable235;
+	variable352 -- variable329;
+	variable352 -- variable351;
+	variable352 -- variable330;
+	variable594 -- variable557;
+	variable594 -- variable323;
+	variable594 -- variable558;
+	variable594 -- variable593;
+	variable594 -- variable321;
+	variable79 -- variable53;
+	variable268 -- variable267;
+	variable268 -- variable266;
+	variable268 -- variable265;
+	variable263 -- variable216;
+	variable263 -- variable215;
+	variable262 -- variable261;
+	variable146 -- variable145;
+	variable146 -- variable144;
+	variable146 -- variable143;
+	variable267 -- variable266;
+	variable267 -- variable265;
+	variable145 -- variable144;
+	variable145 -- variable143;
+	variable266 -- variable265;
+	variable144 -- variable143;
+	variable264 -- variable216;
+	variable264 -- variable215;
+	variable264 -- variable263;
+	variable86 -- variable766;
+	variable86 -- variable765;
+	variable86 -- variable84;
+	variable86 -- variable85;
+	variable86 -- variable785;
+	variable86 -- variable748;
+	variable86 -- variable747;
+	variable86 -- variable614;
+	variable86 -- variable613;
+	variable86 -- variable83;
+	variable84 -- variable766;
+	variable84 -- variable765;
+	variable84 -- variable785;
+	variable84 -- variable748;
+	variable84 -- variable747;
+	variable84 -- variable614;
+	variable84 -- variable613;
+	variable84 -- variable83;
+	variable85 -- variable766;
+	variable85 -- variable765;
+	variable85 -- variable84;
+	variable85 -- variable748;
+	variable85 -- variable747;
+	variable85 -- variable614;
+	variable85 -- variable613;
+	variable85 -- variable83;
+	variable82 -- variable79;
+	variable82 -- variable290;
+	variable82 -- variable80;
+	variable82 -- variable81;
+	variable83 -- variable766;
+	variable83 -- variable765;
+	variable83 -- variable748;
+	variable83 -- variable747;
+	variable83 -- variable614;
+	variable83 -- variable613;
+	variable80 -- variable53;
+	variable80 -- variable79;
+	variable80 -- variable790;
+	variable80 -- variable651;
+	variable81 -- variable79;
+	variable81 -- variable289;
+	variable81 -- variable80;
+}
+
+Starting the algorithm...
+var `variable261' = 526
+var `variable879' = 540
+var `variable652' = 750
+var `variable54' = 722
+var `variable590' = 338
+var `variable617' = 694
+var `variable618' = 512
+var `variable589' = 100
+var `variable661' = 736
+var `variable662' = 498
+var `variable262' = 764
+var `variable359' = 778
+var `variable287' = 254
+var `variable288' = 16
+var `variable471' = 498
+var `variable472' = 736
+var `variable365' = 694
+var `variable360' = 128
+var `variable366' = 540
+var `variable216' = 428
+var `variable215' = 282
+var `variable623' = 442
+var `variable624' = 428
+var `variable304' = 30
+var `variable286' = 142
+var `variable310' = 338
+var `variable306' = 16
+var `variable285' = 394
+var `variable305' = 470
+var `variable309' = 484
+var `variable303' = 44
+var `variable880' = 778
+var `variable651' = 512
+var `variable53' = 484
+var `variable79' = 86
+var `variable81' = 680
+var `variable596' = 750
+var `variable595' = 282
+var `variable763' = 498
+var `variable326' = 156
+var `variable764' = 100
+var `variable264' = 456
+var `variable327' = 282
+var `variable325' = 310
+var `variable263' = 296
+var `variable328' = 16
+var `variable265' = 142
+var `variable603' = 268
+var `variable646' = 380
+var `variable604' = 366
+var `variable267' = 484
+var `variable645' = 128
+var `variable606' = 498
+var `variable605' = 512
+var `variable626' = 526
+var `variable625' = 722
+var `variable580' = 324
+var `variable237' = 778
+var `variable517' = 428
+var `variable238' = 512
+var `variable518' = 764
+var `variable235' = 722
+var `variable236' = 526
+var `variable579' = 58
+var `variable796' = 44
+var `variable797' = 58
+var `variable80' = 324
+var `variable82' = 442
+var `variable289' = 554
+var `variable607' = 708
+var `variable283' = 156
+var `variable282' = 114
+var `variable344' = 456
+var `variable723' = 456
+var `variable281' = 324
+var `variable342' = 764
+var `variable284' = 100
+var `variable343' = 394
+var `variable145' = 324
+var `variable341' = 680
+var `variable721' = 512
+var `variable143' = 44
+var `variable722' = 352
+var `variable144' = 680
+var `variable724' = 540
+var `variable146' = 156
+var `variable292' = 58
+var `variable291' = 268
+var `variable787' = 86
+var `variable556' = 142
+var `variable583' = 526
+var `variable608' = 442
+var `variable584' = 142
+var `variable555' = 268
+var `variable275' = 694
+var `variable719' = 512
+var `variable269' = 666
+var `variable717' = 310
+var `variable270' = 750
+var `variable277' = 16
+var `variable720' = 58
+var `variable273' = 338
+var `variable718' = 750
+var `variable276' = 708
+var `variable713' = 540
+var `variable714' = 100
+var `variable271' = 324
+var `variable272' = 72
+var `variable519' = 512
+var `variable274' = 380
+var `variable520' = 750
+var `variable278' = 666
+var `variable602' = 540
+var `variable635' = 722
+var `variable560' = 338
+var `variable601' = 442
+var `variable559' = 338
+var `variable585' = 470
+var `variable588' = 498
+var `variable266' = 338
+var `variable268' = 722
+var `variable566' = 750
+var `variable664' = 792
+var `variable663' = 680
+var `variable743' = 470
+var `variable744' = 498
+var `variable352' = 512
+var `variable329' = 338
+var `variable351' = 282
+var `variable330' = 736
+var `variable349' = 484
+var `variable561' = 282
+var `variable233' = 540
+var `variable801' = 72
+var `variable350' = 764
+var `variable622' = 30
+var `variable578' = 128
+var `variable562' = 470
+var `variable234' = 694
+var `variable621' = 142
+var `variable592' = 128
+var `variable577' = 750
+var `variable83' = 394
+var `variable766' = 456
+var `variable748' = 72
+var `variable85' = 792
+var `variable86' = 30
+var `variable84' = 338
+var `variable789' = 484
+var `variable798' = 30
+var `variable629' = 72
+var `variable788' = 310
+var `variable630' = 526
+var `variable598' = 86
+var `variable613' = 100
+var `variable631' = 310
+var `variable791' = 380
+var `variable632' = 680
+var `variable795' = 380
+var `variable792' = 268
+var `variable793' = 366
+var `variable634' = 666
+var `variable794' = 128
+var `variable745' = 114
+var `variable800' = 750
+var `variable587' = 792
+var `variable290' = 792
+var `variable799' = 512
+var `variable636' = 470
+var `variable746' = 512
+var `variable633' = 680
+var `variable565' = 456
+var `variable594' = 442
+var `variable790' = 722
+var `variable747' = 512
+var `variable765' = 366
+var `variable586' = 456
+var `variable14' = 156
+var `variable786' = 778
+var `variable597' = 352
+var `variable16' = 128
+var `variable558' = 722
+var `variable600' = 380
+var `variable593' = 380
+var `variable322' = 680
+var `variable324' = 282
+var `variable802' = 708
+var `variable614' = 72
+var `variable599' = 526
+var `variable591' = 100
+var `variable557' = 338
+var `variable323' = 764
+var `variable15' = 394
+var `variable665' = 100
+var `variable785' = 666
+var `variable321' = 310
+var `variable13' = 750
+var `variable666' = 442
+var `variable768' = 114
+var `variable767' = 72
+Total cost of reported solution: infinity
+Algorithm finished in 49 835 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, DSA, VALUE]:	8 756
+	[ALL, DSA, VALUE]:	7 761
+	[ALL, DSA, VALUE]:	4 577
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	4 577
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	4 577
+	[ALL, DSA, VALUE]:	3 980
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	4 179
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	4 577
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	3 980
+	[ALL, DSA, VALUE]:	2 786
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	7 164
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	5 970
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	4 776
+	[ALL, DSA, VALUE]:	4 975
+	[ALL, DSA, VALUE]:	7 164
+	[ALL, DSA, VALUE]:	6 965
+	[ALL, DSA, VALUE]:	5 970
+	[ALL, DSA, VALUE]:	5 970
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	5 970
+	[ALL, DSA, VALUE]:	6 965
+	[ALL, DSA, VALUE]:	4 776
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	4 975
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	4 577
+	[ALL, DSA, VALUE]:	4 378
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	4 179
+	[ALL, DSA, VALUE]:	4 577
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	5 373
+	[ALL, DSA, VALUE]:	5 373
+	[ALL, DSA, VALUE]:	5 373
+	[ALL, DSA, VALUE]:	5 373
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 980
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	5 572
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 587
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	398
+	[ALL, DSA, VALUE]:	398
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	2 388
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	1 990
+	[ALL, DSA, VALUE]:	2 189
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	1 194
+	[ALL, DSA, VALUE]:	398
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	199
+	- Total:	526 156
+Number of messages sent (by agent): 
+	agent1:	2 985
+	agent10:	796
+	agent100:	2 985
+	agent101:	2 587
+	agent102:	2 587
+	agent103:	1 194
+	agent104:	995
+	agent105:	4 179
+	agent106:	4 378
+	agent107:	1 393
+	agent108:	2 189
+	agent109:	1 592
+	agent11:	1 791
+	agent110:	1 393
+	agent111:	995
+	agent112:	995
+	agent113:	3 980
+	agent114:	3 781
+	agent115:	2 985
+	agent116:	3 383
+	agent117:	1 393
+	agent118:	1 393
+	agent119:	2 985
+	agent12:	1 990
+	agent120:	2 786
+	agent121:	3 383
+	agent122:	3 383
+	agent123:	1 990
+	agent124:	1 791
+	agent125:	1 393
+	agent126:	1 592
+	agent127:	1 194
+	agent128:	1 194
+	agent129:	3 383
+	agent13:	1 791
+	agent130:	2 985
+	agent131:	3 980
+	agent132:	4 179
+	agent133:	995
+	agent134:	1 393
+	agent135:	3 383
+	agent136:	3 383
+	agent137:	597
+	agent138:	597
+	agent139:	1 393
+	agent14:	1 990
+	agent140:	1 393
+	agent141:	1 990
+	agent142:	1 990
+	agent143:	1 791
+	agent144:	1 194
+	agent145:	1 990
+	agent146:	1 990
+	agent147:	1 990
+	agent148:	1 990
+	agent149:	1 592
+	agent15:	5 572
+	agent150:	1 393
+	agent151:	398
+	agent152:	199
+	agent153:	597
+	agent154:	597
+	agent155:	995
+	agent156:	995
+	agent157:	4 577
+	agent158:	4 577
+	agent159:	6 965
+	agent16:	5 373
+	agent160:	7 164
+	agent161:	5 572
+	agent162:	5 970
+	agent163:	5 572
+	agent164:	5 970
+	agent165:	5 572
+	agent166:	5 373
+	agent167:	5 572
+	agent168:	5 373
+	agent169:	2 587
+	agent17:	5 572
+	agent170:	2 587
+	agent171:	1 990
+	agent172:	2 189
+	agent173:	2 985
+	agent174:	2 587
+	agent175:	1 990
+	agent176:	1 990
+	agent177:	1 990
+	agent178:	1 791
+	agent179:	8 756
+	agent18:	5 373
+	agent180:	7 761
+	agent181:	2 985
+	agent182:	2 388
+	agent183:	2 587
+	agent184:	2 388
+	agent185:	1 194
+	agent186:	1 791
+	agent187:	1 194
+	agent188:	1 393
+	agent189:	1 393
+	agent19:	1 990
+	agent190:	1 194
+	agent191:	1 194
+	agent192:	995
+	agent193:	995
+	agent194:	1 194
+	agent195:	1 393
+	agent196:	1 592
+	agent197:	2 985
+	agent198:	3 383
+	agent199:	199
+	agent2:	2 985
+	agent20:	2 189
+	agent200:	398
+	agent21:	2 985
+	agent22:	2 985
+	agent23:	995
+	agent24:	995
+	agent25:	2 587
+	agent26:	2 587
+	agent27:	199
+	agent28:	398
+	agent29:	2 587
+	agent3:	2 985
+	agent30:	2 388
+	agent31:	1 791
+	agent32:	1 990
+	agent33:	1 791
+	agent34:	1 990
+	agent35:	4 975
+	agent36:	4 776
+	agent37:	4 975
+	agent38:	4 776
+	agent39:	5 572
+	agent4:	2 985
+	agent40:	5 970
+	agent41:	5 572
+	agent42:	5 970
+	agent43:	6 965
+	agent44:	7 164
+	agent45:	3 781
+	agent46:	3 781
+	agent47:	3 781
+	agent48:	3 980
+	agent49:	2 189
+	agent5:	597
+	agent50:	2 189
+	agent51:	597
+	agent52:	597
+	agent53:	995
+	agent54:	1 194
+	agent55:	1 791
+	agent56:	1 791
+	agent57:	2 388
+	agent58:	2 189
+	agent59:	2 388
+	agent6:	199
+	agent60:	2 189
+	agent61:	2 189
+	agent62:	2 189
+	agent63:	3 383
+	agent64:	2 985
+	agent65:	3 383
+	agent66:	2 985
+	agent67:	2 587
+	agent68:	2 388
+	agent69:	2 587
+	agent7:	796
+	agent70:	2 388
+	agent71:	1 393
+	agent72:	1 990
+	agent73:	3 781
+	agent74:	3 781
+	agent75:	3 781
+	agent76:	3 781
+	agent77:	3 383
+	agent78:	3 383
+	agent79:	1 791
+	agent8:	1 393
+	agent80:	1 791
+	agent81:	1 194
+	agent82:	1 393
+	agent83:	995
+	agent84:	1 592
+	agent85:	796
+	agent86:	796
+	agent87:	2 587
+	agent88:	2 587
+	agent89:	597
+	agent9:	796
+	agent90:	597
+	agent91:	4 577
+	agent92:	4 577
+	agent93:	4 577
+	agent94:	4 577
+	agent95:	2 587
+	agent96:	2 587
+	agent97:	2 985
+	agent98:	2 985
+	agent99:	2 985
+Number of messages received (by agent): 
+	agent1:	2 985
+	agent10:	796
+	agent100:	2 985
+	agent101:	2 587
+	agent102:	2 587
+	agent103:	1 194
+	agent104:	995
+	agent105:	4 179
+	agent106:	4 378
+	agent107:	1 393
+	agent108:	2 189
+	agent109:	1 592
+	agent11:	1 791
+	agent110:	1 393
+	agent111:	995
+	agent112:	995
+	agent113:	3 980
+	agent114:	3 781
+	agent115:	2 985
+	agent116:	3 383
+	agent117:	1 393
+	agent118:	1 393
+	agent119:	2 985
+	agent12:	1 990
+	agent120:	2 786
+	agent121:	3 383
+	agent122:	3 383
+	agent123:	1 990
+	agent124:	1 791
+	agent125:	1 393
+	agent126:	1 592
+	agent127:	1 194
+	agent128:	1 194
+	agent129:	3 383
+	agent13:	1 791
+	agent130:	2 985
+	agent131:	3 980
+	agent132:	4 179
+	agent133:	995
+	agent134:	1 393
+	agent135:	3 383
+	agent136:	3 383
+	agent137:	597
+	agent138:	597
+	agent139:	1 393
+	agent14:	1 990
+	agent140:	1 393
+	agent141:	1 990
+	agent142:	1 990
+	agent143:	1 791
+	agent144:	1 194
+	agent145:	1 990
+	agent146:	1 990
+	agent147:	1 990
+	agent148:	1 990
+	agent149:	1 592
+	agent15:	5 572
+	agent150:	1 393
+	agent151:	398
+	agent152:	199
+	agent153:	597
+	agent154:	597
+	agent155:	995
+	agent156:	995
+	agent157:	4 577
+	agent158:	4 577
+	agent159:	6 965
+	agent16:	5 373
+	agent160:	7 164
+	agent161:	5 572
+	agent162:	5 970
+	agent163:	5 572
+	agent164:	5 970
+	agent165:	5 572
+	agent166:	5 373
+	agent167:	5 572
+	agent168:	5 373
+	agent169:	2 587
+	agent17:	5 572
+	agent170:	2 587
+	agent171:	1 990
+	agent172:	2 189
+	agent173:	2 985
+	agent174:	2 587
+	agent175:	1 990
+	agent176:	1 990
+	agent177:	1 990
+	agent178:	1 791
+	agent179:	8 756
+	agent18:	5 373
+	agent180:	7 761
+	agent181:	2 985
+	agent182:	2 388
+	agent183:	2 587
+	agent184:	2 388
+	agent185:	1 194
+	agent186:	1 791
+	agent187:	1 194
+	agent188:	1 393
+	agent189:	1 393
+	agent19:	1 990
+	agent190:	1 194
+	agent191:	1 194
+	agent192:	995
+	agent193:	995
+	agent194:	1 194
+	agent195:	1 393
+	agent196:	1 592
+	agent197:	2 985
+	agent198:	3 383
+	agent199:	199
+	agent2:	2 985
+	agent20:	2 189
+	agent200:	398
+	agent21:	2 985
+	agent22:	2 985
+	agent23:	995
+	agent24:	995
+	agent25:	2 587
+	agent26:	2 587
+	agent27:	199
+	agent28:	398
+	agent29:	2 587
+	agent3:	2 985
+	agent30:	2 388
+	agent31:	1 791
+	agent32:	1 990
+	agent33:	1 791
+	agent34:	1 990
+	agent35:	4 975
+	agent36:	4 776
+	agent37:	4 975
+	agent38:	4 776
+	agent39:	5 572
+	agent4:	2 985
+	agent40:	5 970
+	agent41:	5 572
+	agent42:	5 970
+	agent43:	6 965
+	agent44:	7 164
+	agent45:	3 781
+	agent46:	3 781
+	agent47:	3 781
+	agent48:	3 980
+	agent49:	2 189
+	agent5:	597
+	agent50:	2 189
+	agent51:	597
+	agent52:	597
+	agent53:	995
+	agent54:	1 194
+	agent55:	1 791
+	agent56:	1 791
+	agent57:	2 388
+	agent58:	2 189
+	agent59:	2 388
+	agent6:	199
+	agent60:	2 189
+	agent61:	2 189
+	agent62:	2 189
+	agent63:	3 383
+	agent64:	2 985
+	agent65:	3 383
+	agent66:	2 985
+	agent67:	2 587
+	agent68:	2 388
+	agent69:	2 587
+	agent7:	796
+	agent70:	2 388
+	agent71:	1 393
+	agent72:	1 990
+	agent73:	3 781
+	agent74:	3 781
+	agent75:	3 781
+	agent76:	3 781
+	agent77:	3 383
+	agent78:	3 383
+	agent79:	1 791
+	agent8:	1 393
+	agent80:	1 791
+	agent81:	1 194
+	agent82:	1 393
+	agent83:	995
+	agent84:	1 592
+	agent85:	796
+	agent86:	796
+	agent87:	2 587
+	agent88:	2 587
+	agent89:	597
+	agent9:	796
+	agent90:	597
+	agent91:	4 577
+	agent92:	4 577
+	agent93:	4 577
+	agent94:	4 577
+	agent95:	2 587
+	agent96:	2 587
+	agent97:	2 985
+	agent98:	2 985
+	agent99:	2 985
+Amount of information sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	185 060
+	[ALL, DSA, VALUE]:	164 030
+	[ALL, DSA, VALUE]:	96 734
+	[ALL, DSA, VALUE]:	63 072
+	[ALL, DSA, VALUE]:	63 088
+	[ALL, DSA, VALUE]:	71 498
+	[ALL, DSA, VALUE]:	96 734
+	[ALL, DSA, VALUE]:	63 072
+	[ALL, DSA, VALUE]:	71 498
+	[ALL, DSA, VALUE]:	96 734
+	[ALL, DSA, VALUE]:	84 120
+	[ALL, DSA, VALUE]:	71 498
+	[ALL, DSA, VALUE]:	88 322
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	63 086
+	[ALL, DSA, VALUE]:	63 086
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	71 498
+	[ALL, DSA, VALUE]:	96 734
+	[ALL, DSA, VALUE]:	63 072
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	50 472
+	[ALL, DSA, VALUE]:	63 072
+	[ALL, DSA, VALUE]:	46 266
+	[ALL, DSA, VALUE]:	42 056
+	[ALL, DSA, VALUE]:	63 086
+	[ALL, DSA, VALUE]:	38 006
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	46 266
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	29 561
+	[ALL, DSA, VALUE]:	25 235
+	[ALL, DSA, VALUE]:	33 648
+	[ALL, DSA, VALUE]:	33 648
+	[ALL, DSA, VALUE]:	25 338
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	84 116
+	[ALL, DSA, VALUE]:	58 884
+	[ALL, DSA, VALUE]:	50 472
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	42 047
+	[ALL, DSA, VALUE]:	42 047
+	[ALL, DSA, VALUE]:	37 842
+	[ALL, DSA, VALUE]:	54 674
+	[ALL, DSA, VALUE]:	37 850
+	[ALL, DSA, VALUE]:	37 842
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	79 914
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	42 230
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	151 416
+	[ALL, DSA, VALUE]:	12 669
+	[ALL, DSA, VALUE]:	126 180
+	[ALL, DSA, VALUE]:	12 618
+	[ALL, DSA, VALUE]:	100 944
+	[ALL, DSA, VALUE]:	105 150
+	[ALL, DSA, VALUE]:	151 416
+	[ALL, DSA, VALUE]:	147 210
+	[ALL, DSA, VALUE]:	126 180
+	[ALL, DSA, VALUE]:	126 180
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	126 180
+	[ALL, DSA, VALUE]:	147 210
+	[ALL, DSA, VALUE]:	100 944
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	105 150
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	96 738
+	[ALL, DSA, VALUE]:	92 532
+	[ALL, DSA, VALUE]:	63 090
+	[ALL, DSA, VALUE]:	88 326
+	[ALL, DSA, VALUE]:	96 738
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	113 562
+	[ALL, DSA, VALUE]:	113 562
+	[ALL, DSA, VALUE]:	113 562
+	[ALL, DSA, VALUE]:	113 562
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	79 914
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	79 914
+	[ALL, DSA, VALUE]:	84 120
+	[ALL, DSA, VALUE]:	79 914
+	[ALL, DSA, VALUE]:	79 914
+	[ALL, DSA, VALUE]:	117 768
+	[ALL, DSA, VALUE]:	79 914
+	[ALL, DSA, VALUE]:	79 914
+	[ALL, DSA, VALUE]:	79 914
+	[ALL, DSA, VALUE]:	71 502
+	[ALL, DSA, VALUE]:	21 114
+	[ALL, DSA, VALUE]:	16 817
+	[ALL, DSA, VALUE]:	29 431
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	33 648
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	33 648
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	37 854
+	[ALL, DSA, VALUE]:	50 472
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	54 678
+	[ALL, DSA, VALUE]:	50 472
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	50 472
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	16 881
+	[ALL, DSA, VALUE]:	16 880
+	[ALL, DSA, VALUE]:	12 612
+	[ALL, DSA, VALUE]:	8 411
+	[ALL, DSA, VALUE]:	8 411
+	[ALL, DSA, VALUE]:	50 472
+	[ALL, DSA, VALUE]:	46 266
+	[ALL, DSA, VALUE]:	50 472
+	[ALL, DSA, VALUE]:	46 266
+	[ALL, DSA, VALUE]:	46 266
+	[ALL, DSA, VALUE]:	46 266
+	[ALL, DSA, VALUE]:	46 266
+	[ALL, DSA, VALUE]:	46 266
+	[ALL, DSA, VALUE]:	12 618
+	[ALL, DSA, VALUE]:	12 618
+	[ALL, DSA, VALUE]:	42 060
+	[ALL, DSA, VALUE]:	46 266
+	[ALL, DSA, VALUE]:	33 648
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	16 892
+	[ALL, DSA, VALUE]:	16 824
+	[ALL, DSA, VALUE]:	12 618
+	[ALL, DSA, VALUE]:	12 669
+	[ALL, DSA, VALUE]:	25 236
+	[ALL, DSA, VALUE]:	8 412
+	[ALL, DSA, VALUE]:	12 669
+	[ALL, DSA, VALUE]:	12 618
+	[ALL, DSA, VALUE]:	21 115
+	[ALL, DSA, VALUE]:	29 442
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	21 030
+	[ALL, DSA, VALUE]:	4 220
+	[ALL, DSA, VALUE]:	4 223
+	[ALL, DSA, VALUE]:	4 223
+	[ALL, DSA, VALUE]:	4 223
+	- Total:	11 121 552
+Amount of information sent (by agent, in bytes): 
+	agent1:	63 072
+	agent10:	16 817
+	agent100:	63 090
+	agent101:	54 678
+	agent102:	54 678
+	agent103:	25 236
+	agent104:	21 030
+	agent105:	88 326
+	agent106:	92 532
+	agent107:	29 442
+	agent108:	46 266
+	agent109:	33 648
+	agent11:	37 842
+	agent110:	29 442
+	agent111:	21 115
+	agent112:	21 030
+	agent113:	84 120
+	agent114:	79 914
+	agent115:	63 090
+	agent116:	71 502
+	agent117:	29 442
+	agent118:	29 442
+	agent119:	63 090
+	agent12:	42 047
+	agent120:	58 884
+	agent121:	71 498
+	agent122:	71 498
+	agent123:	42 060
+	agent124:	37 854
+	agent125:	29 442
+	agent126:	33 648
+	agent127:	25 236
+	agent128:	25 236
+	agent129:	71 502
+	agent13:	37 842
+	agent130:	63 090
+	agent131:	84 116
+	agent132:	88 322
+	agent133:	21 030
+	agent134:	29 442
+	agent135:	71 502
+	agent136:	71 502
+	agent137:	12 618
+	agent138:	12 618
+	agent139:	29 442
+	agent14:	42 047
+	agent140:	29 442
+	agent141:	42 060
+	agent142:	42 060
+	agent143:	37 854
+	agent144:	25 236
+	agent145:	42 060
+	agent146:	42 060
+	agent147:	42 060
+	agent148:	42 060
+	agent149:	33 648
+	agent15:	117 768
+	agent150:	29 442
+	agent151:	8 411
+	agent152:	4 223
+	agent153:	12 618
+	agent154:	12 669
+	agent155:	21 030
+	agent156:	21 030
+	agent157:	96 734
+	agent158:	96 734
+	agent159:	147 210
+	agent16:	113 562
+	agent160:	151 416
+	agent161:	117 768
+	agent162:	126 180
+	agent163:	117 768
+	agent164:	126 180
+	agent165:	117 768
+	agent166:	113 562
+	agent167:	117 768
+	agent168:	113 562
+	agent169:	54 678
+	agent17:	117 768
+	agent170:	54 678
+	agent171:	42 060
+	agent172:	46 266
+	agent173:	63 086
+	agent174:	54 674
+	agent175:	42 060
+	agent176:	42 060
+	agent177:	42 056
+	agent178:	37 850
+	agent179:	185 060
+	agent18:	113 562
+	agent180:	164 030
+	agent181:	63 088
+	agent182:	50 472
+	agent183:	54 678
+	agent184:	50 472
+	agent185:	25 236
+	agent186:	38 006
+	agent187:	25 236
+	agent188:	29 442
+	agent189:	29 442
+	agent19:	42 060
+	agent190:	25 338
+	agent191:	25 236
+	agent192:	21 030
+	agent193:	21 030
+	agent194:	25 236
+	agent195:	29 561
+	agent196:	33 648
+	agent197:	63 090
+	agent198:	71 502
+	agent199:	4 223
+	agent2:	63 072
+	agent20:	46 266
+	agent200:	8 411
+	agent21:	63 090
+	agent22:	63 090
+	agent23:	21 030
+	agent24:	21 030
+	agent25:	54 678
+	agent26:	54 678
+	agent27:	4 223
+	agent28:	8 412
+	agent29:	54 678
+	agent3:	63 072
+	agent30:	50 472
+	agent31:	37 854
+	agent32:	42 060
+	agent33:	37 854
+	agent34:	42 230
+	agent35:	105 150
+	agent36:	100 944
+	agent37:	105 150
+	agent38:	100 944
+	agent39:	117 768
+	agent4:	63 072
+	agent40:	126 180
+	agent41:	117 768
+	agent42:	126 180
+	agent43:	147 210
+	agent44:	151 416
+	agent45:	79 914
+	agent46:	79 914
+	agent47:	79 914
+	agent48:	84 120
+	agent49:	46 266
+	agent5:	12 612
+	agent50:	46 266
+	agent51:	12 669
+	agent52:	12 618
+	agent53:	21 114
+	agent54:	25 235
+	agent55:	37 854
+	agent56:	37 854
+	agent57:	50 472
+	agent58:	46 266
+	agent59:	50 472
+	agent6:	4 220
+	agent60:	46 266
+	agent61:	46 266
+	agent62:	46 266
+	agent63:	71 498
+	agent64:	63 086
+	agent65:	71 498
+	agent66:	63 086
+	agent67:	54 678
+	agent68:	50 472
+	agent69:	54 678
+	agent7:	16 880
+	agent70:	50 472
+	agent71:	29 442
+	agent72:	42 060
+	agent73:	79 914
+	agent74:	79 914
+	agent75:	79 914
+	agent76:	79 914
+	agent77:	71 502
+	agent78:	71 502
+	agent79:	37 854
+	agent8:	29 431
+	agent80:	37 854
+	agent81:	25 236
+	agent82:	29 442
+	agent83:	21 030
+	agent84:	33 648
+	agent85:	16 824
+	agent86:	16 892
+	agent87:	54 678
+	agent88:	54 678
+	agent89:	12 618
+	agent9:	16 881
+	agent90:	12 669
+	agent91:	96 738
+	agent92:	96 738
+	agent93:	96 734
+	agent94:	96 734
+	agent95:	54 678
+	agent96:	54 678
+	agent97:	63 090
+	agent98:	63 090
+	agent99:	63 090
+Amount of information received (by agent, in bytes): 
+	agent1:	63 072
+	agent10:	16 849
+	agent100:	63 090
+	agent101:	54 678
+	agent102:	54 678
+	agent103:	25 236
+	agent104:	21 030
+	agent105:	88 326
+	agent106:	92 532
+	agent107:	29 442
+	agent108:	46 283
+	agent109:	33 648
+	agent11:	37 842
+	agent110:	29 442
+	agent111:	21 030
+	agent112:	21 047
+	agent113:	84 120
+	agent114:	79 914
+	agent115:	63 090
+	agent116:	71 502
+	agent117:	29 459
+	agent118:	29 459
+	agent119:	63 107
+	agent12:	42 047
+	agent120:	58 901
+	agent121:	71 498
+	agent122:	71 498
+	agent123:	42 060
+	agent124:	37 854
+	agent125:	29 459
+	agent126:	33 665
+	agent127:	25 253
+	agent128:	25 270
+	agent129:	71 502
+	agent13:	37 842
+	agent130:	63 090
+	agent131:	84 116
+	agent132:	88 322
+	agent133:	21 047
+	agent134:	29 459
+	agent135:	71 502
+	agent136:	71 502
+	agent137:	12 618
+	agent138:	12 618
+	agent139:	29 442
+	agent14:	42 047
+	agent140:	29 442
+	agent141:	42 060
+	agent142:	42 060
+	agent143:	37 854
+	agent144:	25 236
+	agent145:	42 060
+	agent146:	42 060
+	agent147:	42 060
+	agent148:	42 060
+	agent149:	33 682
+	agent15:	117 768
+	agent150:	29 476
+	agent151:	8 428
+	agent152:	4 206
+	agent153:	12 635
+	agent154:	12 618
+	agent155:	21 030
+	agent156:	21 030
+	agent157:	96 734
+	agent158:	96 734
+	agent159:	147 210
+	agent16:	113 562
+	agent160:	151 416
+	agent161:	117 768
+	agent162:	126 180
+	agent163:	117 768
+	agent164:	126 180
+	agent165:	117 768
+	agent166:	113 562
+	agent167:	117 768
+	agent168:	113 562
+	agent169:	54 678
+	agent17:	117 768
+	agent170:	54 678
+	agent171:	42 060
+	agent172:	46 266
+	agent173:	63 086
+	agent174:	54 674
+	agent175:	42 060
+	agent176:	42 060
+	agent177:	42 056
+	agent178:	37 850
+	agent179:	185 111
+	agent18:	113 562
+	agent180:	164 064
+	agent181:	63 088
+	agent182:	50 472
+	agent183:	54 695
+	agent184:	50 489
+	agent185:	25 253
+	agent186:	37 870
+	agent187:	25 270
+	agent188:	29 476
+	agent189:	29 459
+	agent19:	42 060
+	agent190:	25 236
+	agent191:	25 253
+	agent192:	21 047
+	agent193:	21 047
+	agent194:	25 253
+	agent195:	29 442
+	agent196:	33 665
+	agent197:	63 107
+	agent198:	71 519
+	agent199:	4 206
+	agent2:	63 072
+	agent20:	46 266
+	agent200:	8 428
+	agent21:	63 090
+	agent22:	63 090
+	agent23:	21 030
+	agent24:	21 030
+	agent25:	54 678
+	agent26:	54 678
+	agent27:	4 206
+	agent28:	8 429
+	agent29:	54 678
+	agent3:	63 072
+	agent30:	50 472
+	agent31:	37 871
+	agent32:	42 077
+	agent33:	37 871
+	agent34:	42 060
+	agent35:	105 150
+	agent36:	100 944
+	agent37:	105 150
+	agent38:	100 944
+	agent39:	117 768
+	agent4:	63 072
+	agent40:	126 180
+	agent41:	117 768
+	agent42:	126 180
+	agent43:	147 210
+	agent44:	151 416
+	agent45:	79 914
+	agent46:	79 914
+	agent47:	79 914
+	agent48:	84 120
+	agent49:	46 266
+	agent5:	12 644
+	agent50:	46 266
+	agent51:	12 635
+	agent52:	12 635
+	agent53:	21 062
+	agent54:	25 252
+	agent55:	37 871
+	agent56:	37 871
+	agent57:	50 472
+	agent58:	46 266
+	agent59:	50 472
+	agent6:	4 204
+	agent60:	46 266
+	agent61:	46 266
+	agent62:	46 266
+	agent63:	71 498
+	agent64:	63 086
+	agent65:	71 498
+	agent66:	63 086
+	agent67:	54 678
+	agent68:	50 472
+	agent69:	54 678
+	agent7:	16 832
+	agent70:	50 472
+	agent71:	29 442
+	agent72:	42 060
+	agent73:	79 914
+	agent74:	79 914
+	agent75:	79 914
+	agent76:	79 914
+	agent77:	71 502
+	agent78:	71 502
+	agent79:	37 854
+	agent8:	29 480
+	agent80:	37 854
+	agent81:	25 236
+	agent82:	29 442
+	agent83:	21 030
+	agent84:	33 648
+	agent85:	16 841
+	agent86:	16 841
+	agent87:	54 678
+	agent88:	54 678
+	agent89:	12 635
+	agent9:	16 850
+	agent90:	12 618
+	agent91:	96 738
+	agent92:	96 738
+	agent93:	96 734
+	agent94:	96 734
+	agent95:	54 695
+	agent96:	54 695
+	agent97:	63 090
+	agent98:	63 090
+	agent99:	63 090
+Size of the largest message sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	245
+	[ALL, DSA, VALUE]:	244
+	[ALL, DSA, VALUE]:	244
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	244
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	[ALL, DSA, VALUE]:	246
+	- Overall maximum:	246
